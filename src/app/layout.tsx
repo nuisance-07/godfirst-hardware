@@ -56,6 +56,8 @@ export default function RootLayout({
       className={`${inter.variable} ${poppins.variable} h-full antialiased`}
       suppressHydrationWarning
     >
+      <head>
+      </head>
       <body className="min-h-full flex flex-col bg-background text-foreground overflow-x-hidden transition-colors duration-300">
         <ThemeProvider
           attribute="class"
