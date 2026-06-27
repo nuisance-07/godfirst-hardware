@@ -1,28 +1,29 @@
 @import "tailwindcss";
 @config "../../tailwind.config.ts";
+
 @layer base {
   :root {
-    --background: #f8f9fa;
-    --foreground: #0f172a;
+    --background: #F1F5F9;
+    --foreground: #0F172A;
     --dark-surface: #ffffff;
   }
 
   .dark {
-    --background: #0a0a0c;
-    --foreground: #f3f4f6;
-    --dark-surface: #121214;
+    --background: #0B1120;
+    --foreground: #E2E8F0;
+    --dark-surface: #111827;
   }
 }
 
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans), sans-serif;
+  font-family: var(--font-dm-sans), sans-serif;
   overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heading), sans-serif;
+  font-family: var(--font-outfit), sans-serif;
 }
 
 /* Smooth scrolling */
@@ -30,9 +31,9 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Custom scrollbar for webkit */
+/* Custom scrollbar — blue-tinted */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -40,10 +41,29 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #444;
-  border-radius: 4px;
+  background: #334155;
+  border-radius: 999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #666;
+  background: #0EA5E9;
+}
+
+/* Blueprint grid background utility */
+.bg-blueprint {
+  background-image:
+    linear-gradient(to right, rgba(14, 165, 233, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(14, 165, 233, 0.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Accent top-border for cards */
+.card-accent {
+  border-top: 3px solid #0EA5E9;
+}
+
+/* Glowing focus ring */
+.focus-glow:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.3);
 }

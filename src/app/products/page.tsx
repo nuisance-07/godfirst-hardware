@@ -38,15 +38,16 @@ export default async function ProductsPage({
   return (
     <PageTransition>
       {/* Header */}
-      <div className="bg-white dark:bg-dark-surface pt-32 pb-16 border-b border-black/5 dark:border-white/10 relative overflow-hidden transition-colors duration-300">
-        <div className="absolute top-0 left-0 w-full h-full bg-primary/5 [mask-image:radial-gradient(ellipse_at_center,black,transparent_80%)]" />
+      <div className="bg-white dark:bg-[#111827] pt-32 pb-16 border-b border-slate-200 dark:border-slate-700/50 relative overflow-hidden transition-colors duration-300">
+        <div className="absolute inset-0 bg-blueprint opacity-20 dark:opacity-40" />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-primary/5 rounded-full blur-[100px]" />
         <div className="container mx-auto px-4 md:px-8 relative z-10">
           <ScrollReveal className="text-center max-w-3xl mx-auto">
             <span className="text-primary tracking-[0.2em] uppercase text-sm font-semibold mb-2 block">Our Catalog</span>
-            <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white uppercase mb-6 transition-colors duration-300">
+            <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 dark:text-white uppercase mb-6 transition-colors duration-300">
               All Products
             </h1>
-            <p className="text-gray-600 dark:text-gray-400 text-lg transition-colors duration-300">
+            <p className="text-slate-600 dark:text-slate-400 text-lg transition-colors duration-300">
               Browse our complete range of quality building and construction materials.
             </p>
           </ScrollReveal>
@@ -54,16 +55,16 @@ export default async function ProductsPage({
       </div>
 
       {/* Filters & Products */}
-      <div className="py-12 bg-gray-50 dark:bg-background transition-colors duration-300">
+      <div className="py-12 bg-slate-50 dark:bg-[#0B1120] transition-colors duration-300">
         <div className="container mx-auto px-4 md:px-8">
           {/* Category Filters */}
           <ScrollReveal className="flex flex-wrap gap-3 mb-12 justify-center">
             <Link
               href="/products"
-              className={`px-5 py-2.5 rounded-sm text-sm font-medium transition-all border ${
+              className={`px-5 py-2.5 rounded-lg text-sm font-medium transition-all border ${
                 !params.category
-                  ? "bg-primary text-white border-primary"
-                  : "bg-white dark:bg-black/30 text-gray-700 dark:text-gray-300 border-gray-200 dark:border-white/10 hover:border-primary hover:text-primary"
+                  ? "bg-gradient-to-r from-primary to-sky-400 text-white border-primary shadow-glow"
+                  : "bg-white dark:bg-[#111827] text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-700/50 hover:border-primary hover:text-primary"
               }`}
             >
               All
@@ -72,10 +73,10 @@ export default async function ProductsPage({
               <Link
                 key={cat}
                 href={`/products?category=${encodeURIComponent(cat)}`}
-                className={`px-5 py-2.5 rounded-sm text-sm font-medium transition-all border ${
+                className={`px-5 py-2.5 rounded-lg text-sm font-medium transition-all border ${
                   params.category === cat
-                    ? "bg-primary text-white border-primary"
-                    : "bg-white dark:bg-black/30 text-gray-700 dark:text-gray-300 border-gray-200 dark:border-white/10 hover:border-primary hover:text-primary"
+                    ? "bg-gradient-to-r from-primary to-sky-400 text-white border-primary shadow-glow"
+                    : "bg-white dark:bg-[#111827] text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-700/50 hover:border-primary hover:text-primary"
                 }`}
               >
                 {cat}
@@ -94,7 +95,7 @@ export default async function ProductsPage({
 
           {filteredProducts.length === 0 && (
             <div className="text-center py-16">
-              <p className="text-gray-500 dark:text-gray-400 text-lg mb-4">
+              <p className="text-slate-500 dark:text-slate-400 text-lg mb-4">
                 {params.category ? `No products found in "${params.category}".` : "No products available yet. Check back soon!"}
               </p>
               <Link href="/products" className="text-primary hover:underline font-medium">

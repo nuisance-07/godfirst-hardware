@@ -13,24 +13,33 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: {
-          DEFAULT: "#E87D2F",
-          hover: "#D4691A",
+          DEFAULT: "#0EA5E9",
+          hover: "#0284C7",
+          light: "#38BDF8",
+        },
+        accent: {
+          DEFAULT: "#22D3EE",
+          muted: "#164E63",
         },
         secondary: {
-          DEFAULT: "#A0A0A0",
-          hover: "#e5e7eb",
+          DEFAULT: "#64748B",
+          hover: "#94A3B8",
         },
         dark: {
-          DEFAULT: "#000000",
+          DEFAULT: "#0B1120",
           surface: {
             DEFAULT: "var(--dark-surface)",
-            hover: "#1c1c1f",
+            hover: "#1E293B",
           }
         }
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "sans-serif"],
-        heading: ["var(--font-poppins)", "sans-serif"],
+        sans: ["var(--font-dm-sans)", "sans-serif"],
+        heading: ["var(--font-outfit)", "sans-serif"],
+      },
+      boxShadow: {
+        glow: "0 0 20px rgba(14, 165, 233, 0.15)",
+        "glow-lg": "0 0 40px rgba(14, 165, 233, 0.2)",
       },
     },
   },
