@@ -14,49 +14,33 @@ export default function Logo({ className = "h-12 w-auto", showText = true }: Log
       fill="none"
     >
       <g>
-        {/* Mask to hide the bottom of the D inside the house */}
-        <mask id="house-mask">
-          <rect width="300" height="310" fill="white" />
-          <polygon points="150,85 220,135 220,190 80,190 80,135" fill="black" />
-        </mask>
-
-        {/* The Red D */}
-        <path 
-          d="M 90 20 L 160 20 C 230 20, 260 60, 260 100 C 260 140, 230 180, 160 180 L 90 180 Z M 130 55 L 130 145 C 180 145, 215 130, 215 100 C 215 70, 180 55, 130 55 Z" 
-          fill="#ff0000" 
-          mask="url(#house-mask)" 
+        {/* The New AI Generated Icon with Transparent Background */}
+        <image 
+          href="/logo-icon.png" 
+          x="60" 
+          y="0" 
+          width="180" 
+          height="190" 
+          preserveAspectRatio="xMidYMid meet"
+          className="dark:drop-shadow-[0_0_8px_rgba(255,255,255,0.3)] transition-all duration-300"
         />
 
-        {/* The Roof */}
-        <path 
-          d="M 40 145 L 150 65 L 260 145 L 240 160 L 150 95 L 60 160 Z" 
-          className="fill-slate-900 dark:fill-white transition-colors duration-300" 
-        />
-
-        {/* The Window Panes */}
-        <g className="fill-slate-900 dark:fill-white transition-colors duration-300">
-          <rect x="138" y="115" width="10" height="10" />
-          <rect x="152" y="115" width="10" height="10" />
-          <rect x="138" y="129" width="10" height="10" />
-          <rect x="152" y="129" width="10" height="10" />
-        </g>
-
-        {/* Text Area */}
+        {/* Text Area (Remains dynamic SVG text for perfect scaling and dark mode support) */}
         {showText && (
           <>
-            <text x="150" y="225" fontFamily="'Inter', sans-serif" fontWeight="900" fontSize="36" textAnchor="middle" className="fill-slate-900 dark:fill-white transition-colors duration-300 tracking-wide">
+            <text x="150" y="225" fontFamily="'Inter', sans-serif" fontWeight="900" fontSize="40" textAnchor="middle" className="fill-slate-900 dark:fill-white transition-colors duration-300 tracking-wider">
               DHAWAKAH
             </text>
-            <text x="150" y="255" fontFamily="'Inter', sans-serif" fontWeight="800" fontSize="20" textAnchor="middle" fill="#ff0000" className="tracking-widest">
-              — HARDWARE —
+            <text x="150" y="255" fontFamily="'Inter', sans-serif" fontWeight="800" fontSize="18" textAnchor="middle" className="fill-slate-600 dark:fill-slate-400 tracking-[0.2em] transition-colors duration-300">
+              HARDWARE & CONSTRUCTION
             </text>
-            <text x="150" y="275" fontFamily="'Inter', sans-serif" fontWeight="700" fontSize="13" textAnchor="middle" className="fill-slate-900 dark:fill-slate-200 transition-colors duration-300">
-              <tspan fill="#ff0000">Your First,</tspan> Priority Hardware
+            <text x="150" y="275" fontFamily="'Inter', sans-serif" fontWeight="600" fontSize="11" textAnchor="middle" className="fill-primary dark:fill-sky-400 tracking-widest transition-colors duration-300">
+              BUILDING SOLUTIONS
             </text>
-            <g transform="translate(55, 285)">
-              <rect x="0" y="0" width="190" height="22" className="fill-slate-900 dark:fill-white transition-colors duration-300" />
-              <text x="95" y="15" fontFamily="'Inter', sans-serif" fontWeight="bold" fontSize="11" textAnchor="middle" className="fill-white dark:fill-slate-900 transition-colors duration-300">
-                0746978736 / 0791453675
+            <g transform="translate(60, 285)">
+              <rect x="0" y="0" width="180" height="20" rx="10" className="fill-slate-900 dark:fill-white transition-colors duration-300 opacity-10" />
+              <text x="90" y="14" fontFamily="'Inter', sans-serif" fontWeight="bold" fontSize="10" textAnchor="middle" className="fill-slate-900 dark:fill-white transition-colors duration-300">
+                QUALITY GUARANTEED
               </text>
             </g>
           </>
