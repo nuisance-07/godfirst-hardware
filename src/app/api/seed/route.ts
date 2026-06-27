@@ -5,10 +5,10 @@ import { Product } from "@/models/Product";
 
 const products = [
   {
-    "name": "Sina Gips Gypsum Plaster Bags Loading",
+    "name": "Gyproc Filler",
     "slug": "sina-gips-gypsum-plaster-bags-loading-0",
     "category": "Cement & Binding",
-    "price": 0,
+    "price": 2800,
     "description": "Premium Sina Gips Gypsum Plaster Bags Loading for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -22,7 +22,8 @@ const products = [
     "images": [
       "/images/products/cement---binding/sina-gips-gypsum-plaster-bags-loading-0.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "featured": true
   },
   {
     "name": "Sina Gips Gypsum Plaster of Paris 25kg",
@@ -45,10 +46,10 @@ const products = [
     "inStock": true
   },
   {
-    "name": "Aalborg Portland White Cement Bags",
+    "name": "White Cement 40kg",
     "slug": "aalborg-portland-white-cement-bags-2",
     "category": "Cement & Binding",
-    "price": 0,
+    "price": 3400,
     "description": "Premium Aalborg Portland White Cement Bags for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -62,7 +63,8 @@ const products = [
     "images": [
       "/images/products/cement---binding/aalborg-portland-white-cement-bags-2.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "featured": true
   },
   {
     "name": "PPR Pipe Fittings Green",
@@ -105,10 +107,10 @@ const products = [
     "inStock": true
   },
   {
-    "name": "Mombasa Cement Nyumba 50kg",
+    "name": "Mombasa Cement 50kg",
     "slug": "mombasa-cement-nyumba-50kg-5",
     "category": "Cement & Binding",
-    "price": 0,
+    "price": 820,
     "description": "Premium Mombasa Cement Nyumba 50kg for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -122,7 +124,8 @@ const products = [
     "images": [
       "/images/products/cement---binding/mombasa-cement-nyumba-50kg-5.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "featured": true
   },
   {
     "name": "Mombasa Cement Nyumba Pozzolanic 50kg",
@@ -185,10 +188,10 @@ const products = [
     "inStock": true
   },
   {
-    "name": "Gypsum Plaster Bags Stacked",
+    "name": "Gypsum Powder POP",
     "slug": "gypsum-plaster-bags-stacked-9",
     "category": "Cement & Binding",
-    "price": 0,
+    "price": 2800,
     "description": "Premium Gypsum Plaster Bags Stacked for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -202,7 +205,8 @@ const products = [
     "images": [
       "/images/products/cement---binding/gypsum-plaster-bags-stacked-9.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "featured": true
   },
   {
     "name": "DuraCoat Skim Coat Bags",
@@ -545,10 +549,10 @@ const products = [
     "inStock": true
   },
   {
-    "name": "Welding Electrodes/Rods",
+    "name": "Welding Rods",
     "slug": "welding-electrodes-rods-27",
     "category": "Steel & Welding",
-    "price": 0,
+    "price": 650,
     "description": "Premium Welding Electrodes/Rods for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -562,13 +566,14 @@ const products = [
     "images": [
       "/images/products/steel---welding/welding-electrodes-rods-27.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "featured": true
   },
   {
-    "name": "DuraCoat Skim Coat 25kg",
+    "name": "DuraCoat Skimcoat Filler",
     "slug": "duracoat-skim-coat-25kg-28",
     "category": "Cement & Binding",
-    "price": 0,
+    "price": 1800,
     "description": "Premium DuraCoat Skim Coat 25kg for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -582,7 +587,8 @@ const products = [
     "images": [
       "/images/products/cement---binding/duracoat-skim-coat-25kg-28.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "featured": true
   },
   {
     "name": "Black Binding Wire Roll",
@@ -605,10 +611,10 @@ const products = [
     "inStock": true
   },
   {
-    "name": "DuraCoat Skim Coat 25kg",
+    "name": "DuraCoat Skimcoat Filler",
     "slug": "duracoat-skim-coat-25kg-30",
     "category": "Cement & Binding",
-    "price": 0,
+    "price": 1800,
     "description": "Premium DuraCoat Skim Coat 25kg for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -622,13 +628,14 @@ const products = [
     "images": [
       "/images/products/cement---binding/duracoat-skim-coat-25kg-30.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "featured": true
   },
   {
-    "name": "Orient Ceiling Fan",
+    "name": "Orient Fan",
     "slug": "orient-ceiling-fan-31",
     "category": "Electrical & Fixtures",
-    "price": 0,
+    "price": 3800,
     "description": "Premium Orient Ceiling Fan for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -642,7 +649,8 @@ const products = [
     "images": [
       "/images/products/electrical---fixtures/orient-ceiling-fan-31.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "featured": true
   },
   {
     "name": "Tangit PVC-U Glue Adhesive",
@@ -665,10 +673,10 @@ const products = [
     "inStock": true
   },
   {
-    "name": "Orient Ceiling Fan",
+    "name": "Orient Fan",
     "slug": "orient-ceiling-fan-33",
     "category": "Electrical & Fixtures",
-    "price": 0,
+    "price": 3800,
     "description": "Premium Orient Ceiling Fan for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -682,13 +690,14 @@ const products = [
     "images": [
       "/images/products/electrical---fixtures/orient-ceiling-fan-33.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "featured": true
   },
   {
-    "name": "Orient Ceiling Fan Box",
+    "name": "Orient Fan",
     "slug": "orient-ceiling-fan-box-34",
     "category": "Electrical & Fixtures",
-    "price": 0,
+    "price": 3800,
     "description": "Premium Orient Ceiling Fan Box for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -702,13 +711,14 @@ const products = [
     "images": [
       "/images/products/electrical---fixtures/orient-ceiling-fan-box-34.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "featured": true
   },
   {
-    "name": "Orient Ceiling Fan Box Close Up",
+    "name": "Orient Fan",
     "slug": "orient-ceiling-fan-box-close-up-35",
     "category": "Electrical & Fixtures",
-    "price": 0,
+    "price": 3800,
     "description": "Premium Orient Ceiling Fan Box Close Up for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -722,13 +732,14 @@ const products = [
     "images": [
       "/images/products/electrical---fixtures/orient-ceiling-fan-box-close-up-35.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "featured": true
   },
   {
-    "name": "Orient Ceiling Fan",
+    "name": "Orient Fan",
     "slug": "orient-ceiling-fan-36",
     "category": "Electrical & Fixtures",
-    "price": 0,
+    "price": 3800,
     "description": "Premium Orient Ceiling Fan for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -742,7 +753,8 @@ const products = [
     "images": [
       "/images/products/electrical---fixtures/orient-ceiling-fan-36.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "featured": true
   },
   {
     "name": "Cement Bags Stacked",
@@ -765,10 +777,10 @@ const products = [
     "inStock": true
   },
   {
-    "name": "Orient Ceiling Fan Box",
+    "name": "Orient Fan",
     "slug": "orient-ceiling-fan-box-38",
     "category": "Electrical & Fixtures",
-    "price": 0,
+    "price": 3800,
     "description": "Premium Orient Ceiling Fan Box for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -782,7 +794,8 @@ const products = [
     "images": [
       "/images/products/electrical---fixtures/orient-ceiling-fan-box-38.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "featured": true
   },
   {
     "name": "Cement Bags Stacked",
@@ -845,10 +858,10 @@ const products = [
     "inStock": true
   },
   {
-    "name": "Bamburi Cement 50kg",
+    "name": "Bamburi Nguvu Cement 50kg",
     "slug": "bamburi-cement-50kg-42",
     "category": "Cement & Binding",
-    "price": 0,
+    "price": 950,
     "description": "Premium Bamburi Cement 50kg for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -862,13 +875,14 @@ const products = [
     "images": [
       "/images/products/cement---binding/bamburi-cement-50kg-42.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "featured": true
   },
   {
-    "name": "Bamburi Cement Bag Back",
+    "name": "Bamburi Fundi Cement 50kg",
     "slug": "bamburi-cement-bag-back-43",
     "category": "Cement & Binding",
-    "price": 0,
+    "price": 720,
     "description": "Premium Bamburi Cement Bag Back for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -882,7 +896,8 @@ const products = [
     "images": [
       "/images/products/cement---binding/bamburi-cement-bag-back-43.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "featured": true
   },
   {
     "name": "Mombasa Cement Pozzolanic 50kg",
