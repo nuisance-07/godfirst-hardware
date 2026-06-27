@@ -22,16 +22,15 @@ export default function Hero() {
 
       <div className="container relative z-10 mx-auto px-4 text-center mt-16">
         <ScrollReveal delay={0.2} direction="up" className="flex flex-col items-center justify-center gap-6 mb-8">
-          <div className="w-24 h-24 md:w-32 md:h-32 bg-gradient-to-br from-primary via-sky-400 to-cyan-400 rounded-2xl flex items-center justify-center shadow-glow-lg">
-            <HardHat size={64} className="text-white md:w-18 md:h-18" />
-          </div>
-          <div className="flex flex-col text-center">
-            <span className="font-heading text-5xl md:text-7xl lg:text-[5.5rem] font-extrabold tracking-tight text-white uppercase leading-none">
-              Dhawakah
-            </span>
-            <span className="font-heading text-lg md:text-2xl tracking-[0.5em] text-sky-300 uppercase mt-2 font-light">
-              Hardware
-            </span>
+          <div className="flex justify-center mb-8">
+            <Image 
+              src="/logo.png" 
+              alt="Dhawakah Hardware Logo" 
+              width={600} 
+              height={200} 
+              className="w-72 md:w-[28rem] h-auto drop-shadow-2xl"
+              priority
+            />
           </div>
         </ScrollReveal>
         
