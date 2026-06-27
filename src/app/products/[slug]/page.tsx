@@ -5,6 +5,7 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, MessageCircle, CheckCircle2 } from "lucide-react";
+import MpesaPayButton from "@/components/ui/MpesaPayButton";
 
 export const revalidate = 0;
 
@@ -103,22 +104,30 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
                   </div>
                 )}
 
-                <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                  <a
-                    href={whatsappUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 px-8 py-4 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600 transition-colors shadow-sm hover:shadow-md"
-                  >
-                    <MessageCircle size={20} />
-                    Order on WhatsApp
-                  </a>
-                  <Link
-                    href="/contact"
-                    className="flex items-center justify-center px-8 py-4 bg-gradient-to-r from-primary to-sky-400 text-white font-semibold rounded-lg hover:shadow-glow transition-all"
-                  >
-                    Request a Quote
-                  </Link>
+                {/* Action Buttons */}
+                <div className="flex flex-col gap-3 pt-4">
+                  <MpesaPayButton
+                    productName={product.name}
+                    productSlug={product.slug}
+                    amount={product.price}
+                  />
+                  <div className="flex flex-col sm:flex-row gap-3">
+                    <a
+                      href={whatsappUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 flex items-center justify-center gap-2 px-6 py-3.5 bg-[#25D366] text-white font-semibold rounded-lg hover:bg-[#1DA851] transition-colors shadow-sm"
+                    >
+                      <MessageCircle size={18} />
+                      Order on WhatsApp
+                    </a>
+                    <Link
+                      href="/contact"
+                      className="flex-1 flex items-center justify-center px-6 py-3.5 bg-gradient-to-r from-primary to-sky-400 text-white font-semibold rounded-lg hover:shadow-glow transition-all"
+                    >
+                      Request a Quote
+                    </Link>
+                  </div>
                 </div>
 
                 {/* Payment Info */}
