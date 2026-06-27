@@ -8,7 +8,7 @@ import PageTransition from "@/components/ui/PageTransition";
 export const revalidate = 0; // Prevent caching
 
 export const metadata = {
-  title: "Admin Dashboard | Godfirst Hardware",
+  title: "Admin Dashboard | Dhawakah Hardware",
 };
 
 async function getDashboardStats() {
@@ -52,7 +52,7 @@ export default async function AdminDashboard() {
           
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
             <div>
-              <span className="text-primary tracking-[0.2em] uppercase text-sm font-semibold mb-2 block">Godfirst Control Panel</span>
+              <span className="text-primary tracking-[0.2em] uppercase text-sm font-semibold mb-2 block">Dhawakah Control Panel</span>
               <h1 className="font-heading text-4xl font-bold text-white uppercase">
                 Admin Dashboard
               </h1>

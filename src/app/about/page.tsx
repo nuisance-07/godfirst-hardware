@@ -3,8 +3,8 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 import { CheckCircle2 } from "lucide-react";
 
 export const metadata = {
-  title: "About Us | Godfirst Hardware",
-  description: "Learn about Godfirst Hardware, your trusted partner for quality building and construction materials in Mombasa.",
+  title: "About Us | Dhawakah Hardware",
+  description: "Learn about Dhawakah Hardware, your trusted partner for quality building and construction materials in Mombasa.",
 };
 
 export default function AboutPage() {
@@ -25,7 +25,7 @@ export default function AboutPage() {
               Building Trust, One Material at a Time.
             </h1>
             <p className="text-xl text-slate-400 max-w-3xl mx-auto font-light leading-relaxed">
-              Godfirst Hardware has been serving the construction industry in Mombasa with genuine, high-quality building materials at unbeatable prices.
+              Dhawakah Hardware has been serving the construction industry in Mombasa with genuine, high-quality building materials at unbeatable prices.
             </p>
           </ScrollReveal>
         </div>

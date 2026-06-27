@@ -71,7 +71,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-slate-900 dark:text-white mb-1">Email</h4>
-                      <p className="text-slate-600 dark:text-slate-400">info@godfirsthardware.co.ke</p>
+                      <p className="text-slate-600 dark:text-slate-400">info@dhawakahhardware.co.ke</p>
                     </div>
                   </div>
 

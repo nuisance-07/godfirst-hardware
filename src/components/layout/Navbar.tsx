@@ -38,8 +38,8 @@ export default function Navbar() {
       )}
     >
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
-        <Link href="/" className="flex items-center group">
-          <Image src="/logo.png" alt="Dhawakah Hardware Logo" width={220} height={60} className="h-14 w-auto group-hover:scale-105 transition-transform" />
+        <Link href="/" className="flex items-center group py-1">
+          <Image src="/logo.png" alt="Dhawakah Hardware Logo" width={300} height={100} className="h-20 md:h-24 w-auto group-hover:scale-105 transition-transform origin-left" />
         </Link>
 
         {/* Desktop Navigation */}

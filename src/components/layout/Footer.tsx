@@ -13,8 +13,8 @@ export default function Footer() {
           
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
-            <Link href="/" className="mb-4 flex items-center">
-              <Image src="/logo.png" alt="Dhawakah Hardware Logo" width={220} height={60} className="h-14 w-auto" />
+            <Link href="/" className="mb-6 flex items-center">
+              <Image src="/logo.png" alt="Dhawakah Hardware Logo" width={300} height={100} className="h-24 w-auto" />
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
               Your one-stop shop for quality building and construction materials. Competitive prices, genuine brands, and reliable service.
@@ -60,7 +60,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={20} className="text-primary shrink-0" />
-                <span className="text-slate-400 text-sm">info@godfirsthardware.co.ke</span>
+                <span className="text-slate-400 text-sm">info@dhawakahhardware.co.ke</span>
               </li>
             </ul>
           </div>
