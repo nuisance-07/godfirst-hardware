@@ -20,13 +20,13 @@ export default function WhyChooseUs() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <ScrollReveal>
-              <span className="text-primary tracking-[0.2em] uppercase text-sm font-semibold mb-2 block">The Godfirst Advantage</span>
+              <span className="text-primary tracking-[0.2em] uppercase text-sm font-semibold mb-2 block">The Dhawakah Advantage</span>
               <h2 className="font-heading text-4xl md:text-5xl font-bold text-white uppercase mb-6">Why Choose Us</h2>
             </ScrollReveal>
             
             <ScrollReveal delay={0.2}>
               <p className="text-slate-400 leading-relaxed text-lg mb-8">
-                At Godfirst Hardware, we provide top-quality construction materials at the most competitive prices in Mombasa. Whether you&apos;re building from scratch or renovating, our extensive stock and expert advice ensure your project stays on track and on budget.
+                At Dhawakah Hardware, we provide top-quality construction materials at the most competitive prices in Mombasa. Whether you&apos;re building from scratch or renovating, our extensive stock and expert advice ensure your project stays on track and on budget.
               </p>
             </ScrollReveal>
             

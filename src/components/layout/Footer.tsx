@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Phone, MapPin, Mail, HardHat } from "lucide-react";
+import { Phone, MapPin, Mail } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -12,18 +13,8 @@ export default function Footer() {
           
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
-            <Link href="/" className="mb-4 flex items-center gap-3">
-              <div className="w-11 h-11 bg-gradient-to-br from-primary to-cyan-400 rounded-lg flex items-center justify-center shadow-glow">
-                <HardHat size={24} className="text-white" />
-              </div>
-              <div className="flex flex-col">
-                <span className="font-heading font-bold text-xl tracking-wide text-white uppercase">
-                  Godfirst
-                </span>
-                <span className="font-sans text-[10px] tracking-[0.25em] text-primary uppercase -mt-0.5">
-                  Hardware
-                </span>
-              </div>
+            <Link href="/" className="mb-4 flex items-center">
+              <Image src="/logo.png" alt="Dhawakah Hardware Logo" width={220} height={60} className="h-14 w-auto" />
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
               Your one-stop shop for quality building and construction materials. Competitive prices, genuine brands, and reliable service.
@@ -77,7 +68,7 @@ export default function Footer() {
 
         <div className="border-t border-slate-700/50 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-slate-500 text-sm">
-            &copy; {new Date().getFullYear()} Godfirst Hardware. All rights reserved.
+            &copy; {new Date().getFullYear()} Dhawakah Hardware. All rights reserved.
           </p>
           <div className="flex gap-4 text-sm">
             <Link href="#" className="text-slate-500 hover:text-primary transition-colors">Privacy Policy</Link>

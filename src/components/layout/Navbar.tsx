@@ -3,7 +3,8 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, HardHat } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
 
@@ -37,18 +38,8 @@ export default function Navbar() {
       )}
     >
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-11 h-11 bg-gradient-to-br from-primary to-cyan-400 rounded-lg flex items-center justify-center shadow-md group-hover:shadow-glow transition-shadow">
-            <HardHat size={24} className="text-white" />
-          </div>
-          <div className="flex flex-col">
-            <span className="font-heading font-bold text-xl tracking-wide text-slate-900 dark:text-white uppercase group-hover:text-primary transition-colors">
-              Godfirst
-            </span>
-            <span className="font-sans text-[10px] tracking-[0.25em] text-slate-500 dark:text-slate-400 uppercase -mt-0.5">
-              Hardware
-            </span>
-          </div>
+        <Link href="/" className="flex items-center group">
+          <Image src="/logo.png" alt="Dhawakah Hardware Logo" width={220} height={60} className="h-14 w-auto group-hover:scale-105 transition-transform" />
         </Link>
 
         {/* Desktop Navigation */}

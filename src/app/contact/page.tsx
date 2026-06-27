@@ -3,8 +3,8 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 import { Phone, Mail, MapPin, MessageCircle, Clock, CreditCard } from "lucide-react";
 
 export const metadata = {
-  title: "Contact Us | Godfirst Hardware",
-  description: "Get in touch with Godfirst Hardware for quotes, bulk orders, and product inquiries.",
+  title: "Contact Us | Dhawakah Hardware",
+  description: "Get in touch with Dhawakah Hardware for quotes, bulk orders, and product inquiries.",
 };
 
 export default function ContactPage() {

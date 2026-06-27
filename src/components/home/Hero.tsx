@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="absolute inset-0 w-full h-full">
         <Image 
           src="/images/hero-bg.png"
-          alt="Godfirst Hardware Store"
+          alt="Dhawakah Hardware Store"
           fill
           priority
           className="absolute inset-0 w-full h-full object-cover"
@@ -27,7 +27,7 @@ export default function Hero() {
           </div>
           <div className="flex flex-col text-center">
             <span className="font-heading text-5xl md:text-7xl lg:text-[5.5rem] font-extrabold tracking-tight text-white uppercase leading-none">
-              Godfirst
+              Dhawakah
             </span>
             <span className="font-heading text-lg md:text-2xl tracking-[0.5em] text-sky-300 uppercase mt-2 font-light">
               Hardware

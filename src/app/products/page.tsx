@@ -5,7 +5,7 @@ import { getProducts, getCategories } from "@/data/products";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Products | Godfirst Hardware",
+  title: "Products | Dhawakah Hardware",
   description: "Browse our complete catalog of building and construction materials at the best prices in Mombasa.",
 };
 

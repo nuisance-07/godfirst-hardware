@@ -21,27 +21,27 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://godfirst-hardware.vercel.app'),
-  title: "Godfirst Hardware | Quality Building & Construction Materials",
-  description: "Godfirst Hardware - Your one-stop shop for quality building materials, cement, steel, welding rods, and construction supplies in Mombasa, Kenya.",
+  title: "Dhawakah Hardware | Quality Building & Construction Materials",
+  description: "Dhawakah Hardware - Your one-stop shop for quality building materials, cement, steel, welding rods, and construction supplies in Mombasa, Kenya.",
   openGraph: {
     type: "website",
     locale: "en_KE",
     url: "https://godfirst-hardware.vercel.app",
-    siteName: "Godfirst Hardware",
-    title: "Godfirst Hardware | Quality Building & Construction Materials",
+    siteName: "Dhawakah Hardware",
+    title: "Dhawakah Hardware | Quality Building & Construction Materials",
     description: "Your one-stop shop for quality building materials, cement, steel, welding rods, and construction supplies in Mombasa, Kenya.",
     images: [
       {
         url: "/images/hero-bg.png",
         width: 1200,
         height: 630,
-        alt: "Godfirst Hardware Store",
+        alt: "Dhawakah Hardware Store",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Godfirst Hardware | Quality Building & Construction Materials",
+    title: "Dhawakah Hardware | Quality Building & Construction Materials",
     description: "Your one-stop shop for quality building materials, cement, steel, welding rods, and construction supplies in Mombasa, Kenya.",
   },
 };
