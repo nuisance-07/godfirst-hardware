@@ -4,9 +4,9 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
-import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
+import Logo from "@/components/ui/Logo";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -39,7 +39,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
         <Link href="/" className="flex items-center group py-1">
-          <Image src="/logo.png" alt="Dhawakah Hardware Logo" width={300} height={100} className="h-20 md:h-24 w-auto group-hover:scale-105 transition-transform origin-left" />
+          <Logo className="h-10 md:h-12 w-auto group-hover:scale-105 transition-transform origin-left" />
         </Link>
 
         {/* Desktop Navigation */}

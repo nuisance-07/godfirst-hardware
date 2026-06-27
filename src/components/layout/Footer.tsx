@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { Phone, MapPin, Mail } from "lucide-react";
-import Image from "next/image";
+import { Mail, MapPin, Phone, ArrowRight, Facebook, Twitter, Instagram } from "lucide-react";
+import Logo from "../ui/Logo";
 
 export default function Footer() {
   return (
@@ -14,7 +14,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
             <Link href="/" className="mb-6 flex items-center">
-              <Image src="/logo.png" alt="Dhawakah Hardware Logo" width={300} height={100} className="h-24 w-auto" />
+              <Logo className="h-12 md:h-14 w-auto" />
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
               Your one-stop shop for quality building and construction materials. Competitive prices, genuine brands, and reliable service.

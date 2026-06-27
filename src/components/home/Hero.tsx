@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { ArrowRight, HardHat } from "lucide-react";
-import ScrollReveal from "@/components/ui/ScrollReveal";
+import ScrollReveal from "../ui/ScrollReveal";
 import Image from "next/image";
+import Logo from "../ui/Logo";
 
 export default function Hero() {
   return (
@@ -23,14 +24,7 @@ export default function Hero() {
       <div className="container relative z-10 mx-auto px-4 text-center mt-16">
         <ScrollReveal delay={0.2} direction="up" className="flex flex-col items-center justify-center gap-6 mb-8">
           <div className="flex justify-center mb-8">
-            <Image 
-              src="/logo.png" 
-              alt="Dhawakah Hardware Logo" 
-              width={600} 
-              height={200} 
-              className="w-72 md:w-[28rem] h-auto drop-shadow-2xl"
-              priority
-            />
+            <Logo className="h-28 md:h-40 lg:h-48 w-auto drop-shadow-2xl" />
           </div>
         </ScrollReveal>
         
