@@ -14,7 +14,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
             <Link href="/" className="mb-6 flex items-center">
-              <Logo className="h-12 md:h-14 w-auto" />
+              <Logo className="h-20 md:h-24 w-auto" />
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
               Your one-stop shop for quality building and construction materials. Competitive prices, genuine brands, and reliable service.

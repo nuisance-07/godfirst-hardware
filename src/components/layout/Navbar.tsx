@@ -39,7 +39,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
         <Link href="/" className="flex items-center group py-1">
-          <Logo className="h-10 md:h-12 w-auto group-hover:scale-105 transition-transform origin-left" />
+          <Logo className="h-16 md:h-20 w-auto group-hover:scale-105 transition-transform origin-left" />
         </Link>
 
         {/* Desktop Navigation */}
