@@ -1,4 +1,7 @@
+"use client";
 import React from 'react';
+import { useTheme } from 'next-themes';
+import { useEffect, useState } from 'react';
 
 interface LogoProps {
   className?: string;
@@ -6,11 +9,20 @@ interface LogoProps {
 }
 
 export default function Logo({ className = "h-12 w-auto", showText = true }: LogoProps) {
+  const { resolvedTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => setMounted(true), []);
+
+  // Before mounting, show light version to avoid flash
+  const src = mounted && resolvedTheme === 'dark' ? '/logo-dark.png' : '/logo.png';
+
   return (
     <img 
-      src="/logo.png" 
+      src={src} 
       alt="Dhawakah Logo" 
-      className={`object-contain transition-all duration-300 dark:drop-shadow-[0_0_20px_rgba(255,255,255,0.8)] ${className}`}
+      className={`object-contain transition-opacity duration-300 ${className}`}
     />
   );
 }
+
