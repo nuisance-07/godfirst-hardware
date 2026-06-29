@@ -9,7 +9,7 @@ const products = [
     "slug": "sina-gips-gypsum-plaster-bags-loading-0",
     "category": "Cement & Binding",
     "price": 2800,
-    "description": "Premium Sina Gips Gypsum Plaster Bags Loading for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Sina Gips Gypsum Plaster Bags Loading for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -30,7 +30,7 @@ const products = [
     "slug": "sina-gips-gypsum-plaster-of-paris-25kg-1",
     "category": "Cement & Binding",
     "price": 0,
-    "description": "Premium Sina Gips Gypsum Plaster of Paris 25kg for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Sina Gips Gypsum Plaster of Paris 25kg for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -50,7 +50,7 @@ const products = [
     "slug": "aalborg-portland-white-cement-bags-2",
     "category": "Cement & Binding",
     "price": 3400,
-    "description": "Premium Aalborg Portland White Cement Bags for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Aalborg Portland White Cement Bags for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -71,7 +71,7 @@ const products = [
     "slug": "ppr-pipe-fittings-green-3",
     "category": "Plumbing",
     "price": 30,
-    "description": "Premium PPR Pipe Fittings Green for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium PPR Pipe Fittings Green for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -92,7 +92,7 @@ const products = [
     "slug": "alortra-white-cement-40kg-4",
     "category": "Cement & Binding",
     "price": 0,
-    "description": "Premium Alortra White Cement 40kg for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Alortra White Cement 40kg for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -112,7 +112,7 @@ const products = [
     "slug": "mombasa-cement-nyumba-50kg-5",
     "category": "Cement & Binding",
     "price": 820,
-    "description": "Premium Mombasa Cement Nyumba 50kg for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Mombasa Cement Nyumba 50kg for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -133,7 +133,7 @@ const products = [
     "slug": "mombasa-cement-nyumba-pozzolanic-50kg-6",
     "category": "Cement & Binding",
     "price": 820,
-    "description": "Premium Mombasa Cement Nyumba Pozzolanic 50kg for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Mombasa Cement Nyumba Pozzolanic 50kg for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -153,7 +153,7 @@ const products = [
     "slug": "aalborg-white-portland-cement-40kg-7",
     "category": "Cement & Binding",
     "price": 0,
-    "description": "Premium Aalborg White Portland Cement 40kg for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Aalborg White Portland Cement 40kg for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -173,7 +173,7 @@ const products = [
     "slug": "duracoat-internal---external-skim-coat-8",
     "category": "Cement & Binding",
     "price": 0,
-    "description": "Premium DuraCoat Internal & External Skim Coat for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium DuraCoat Internal & External Skim Coat for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -193,7 +193,7 @@ const products = [
     "slug": "gypsum-plaster-bags-stacked-9",
     "category": "Cement & Binding",
     "price": 2800,
-    "description": "Premium Gypsum Plaster Bags Stacked for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Gypsum Plaster Bags Stacked for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -214,7 +214,7 @@ const products = [
     "slug": "duracoat-skim-coat-bags-10",
     "category": "Cement & Binding",
     "price": 0,
-    "description": "Premium DuraCoat Skim Coat Bags for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium DuraCoat Skim Coat Bags for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -234,7 +234,7 @@ const products = [
     "slug": "nails-1-0",
     "category": "Tools & Hardware",
     "price": 350,
-    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -255,7 +255,7 @@ const products = [
     "slug": "nails-1-1-2-1",
     "category": "Tools & Hardware",
     "price": 350,
-    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -276,7 +276,7 @@ const products = [
     "slug": "nails-2-2",
     "category": "Tools & Hardware",
     "price": 200,
-    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -297,7 +297,7 @@ const products = [
     "slug": "nails-3-3",
     "category": "Tools & Hardware",
     "price": 200,
-    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -318,7 +318,7 @@ const products = [
     "slug": "nails-4-4",
     "category": "Tools & Hardware",
     "price": 200,
-    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -339,7 +339,7 @@ const products = [
     "slug": "nails-5-5",
     "category": "Tools & Hardware",
     "price": 200,
-    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -360,7 +360,7 @@ const products = [
     "slug": "ceiling-nails-1-6",
     "category": "Tools & Hardware",
     "price": 350,
-    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -381,7 +381,7 @@ const products = [
     "slug": "ceiling-nails-1-1-2-7",
     "category": "Tools & Hardware",
     "price": 350,
-    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -402,7 +402,7 @@ const products = [
     "slug": "duracoat-skim-coat-bags-12",
     "category": "Cement & Binding",
     "price": 0,
-    "description": "Premium DuraCoat Skim Coat Bags for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium DuraCoat Skim Coat Bags for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -422,7 +422,7 @@ const products = [
     "slug": "ultratech-gyp--gypsum-plaster-14",
     "category": "Cement & Binding",
     "price": 0,
-    "description": "Premium UltraTech Gyp+ Gypsum Plaster for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium UltraTech Gyp+ Gypsum Plaster for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -442,7 +442,7 @@ const products = [
     "slug": "ultratech-gyp--gypsum-plaster-back-15",
     "category": "Cement & Binding",
     "price": 0,
-    "description": "Premium UltraTech Gyp+ Gypsum Plaster Back for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium UltraTech Gyp+ Gypsum Plaster Back for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -462,7 +462,7 @@ const products = [
     "slug": "undertaker-480-ec-insecticide-1l-16",
     "category": "Tools & Hardware",
     "price": 3500,
-    "description": "Premium Undertaker 480 EC Insecticide 1L for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Undertaker 480 EC Insecticide 1L for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -482,7 +482,7 @@ const products = [
     "slug": "hose-pipe-3-4-roll-0",
     "category": "Plumbing",
     "price": 6500,
-    "description": "Premium Tan-Ur PVC Water Hose Green for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Tan-Ur PVC Water Hose Green for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -503,7 +503,7 @@ const products = [
     "slug": "hose-pipe-1-2-roll-1",
     "category": "Plumbing",
     "price": 6000,
-    "description": "Premium Tan-Ur PVC Water Hose Green for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Tan-Ur PVC Water Hose Green for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -524,7 +524,7 @@ const products = [
     "slug": "hose-pipe-1-roll-2",
     "category": "Plumbing",
     "price": 7500,
-    "description": "Premium Tan-Ur PVC Water Hose Green for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Tan-Ur PVC Water Hose Green for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -545,7 +545,7 @@ const products = [
     "slug": "hose-pipe-1-metre-3",
     "category": "Plumbing",
     "price": 200,
-    "description": "Premium Tan-Ur PVC Water Hose Green for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Tan-Ur PVC Water Hose Green for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -566,7 +566,7 @@ const products = [
     "slug": "undertaker-480-ec-insecticide-1l-19",
     "category": "Tools & Hardware",
     "price": 3500,
-    "description": "Premium Undertaker 480 EC Insecticide 1L for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Undertaker 480 EC Insecticide 1L for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -586,7 +586,7 @@ const products = [
     "slug": "cable-wire-1-5-roll-0",
     "category": "Electrical & Fixtures",
     "price": 5500,
-    "description": "Premium Electrical Wire Rolls Stacked for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Electrical Wire Rolls Stacked for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -607,7 +607,7 @@ const products = [
     "slug": "cable-wire-2-5-roll-1",
     "category": "Electrical & Fixtures",
     "price": 6500,
-    "description": "Premium Electrical Wire Rolls Stacked for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Electrical Wire Rolls Stacked for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -628,7 +628,7 @@ const products = [
     "slug": "welding-electrodes-rods-27",
     "category": "Steel & Welding",
     "price": 650,
-    "description": "Premium Welding Electrodes/Rods for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Welding Electrodes/Rods for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -649,7 +649,7 @@ const products = [
     "slug": "duracoat-skim-coat-25kg-28",
     "category": "Cement & Binding",
     "price": 1800,
-    "description": "Premium DuraCoat Skim Coat 25kg for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium DuraCoat Skim Coat 25kg for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -670,7 +670,7 @@ const products = [
     "slug": "binding-wire-1-roll-0",
     "category": "Steel & Welding",
     "price": 4000,
-    "description": "Premium Black Binding Wire Roll for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Black Binding Wire Roll for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -691,7 +691,7 @@ const products = [
     "slug": "binding-wire-1kg-1",
     "category": "Steel & Welding",
     "price": 350,
-    "description": "Premium Black Binding Wire Roll for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Black Binding Wire Roll for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -712,7 +712,7 @@ const products = [
     "slug": "duracoat-skim-coat-25kg-30",
     "category": "Cement & Binding",
     "price": 1800,
-    "description": "Premium DuraCoat Skim Coat 25kg for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium DuraCoat Skim Coat 25kg for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -733,7 +733,7 @@ const products = [
     "slug": "orient-ceiling-fan-31",
     "category": "Electrical & Fixtures",
     "price": 3800,
-    "description": "Premium Orient Ceiling Fan for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Orient Ceiling Fan for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -754,7 +754,7 @@ const products = [
     "slug": "tangit-pvc-u-glue-adhesive-32",
     "category": "Plumbing",
     "price": 850,
-    "description": "Premium Tangit PVC-U Glue Adhesive for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Tangit PVC-U Glue Adhesive for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -775,7 +775,7 @@ const products = [
     "slug": "orient-ceiling-fan-33",
     "category": "Electrical & Fixtures",
     "price": 3800,
-    "description": "Premium Orient Ceiling Fan for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Orient Ceiling Fan for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -796,7 +796,7 @@ const products = [
     "slug": "orient-ceiling-fan-box-34",
     "category": "Electrical & Fixtures",
     "price": 3800,
-    "description": "Premium Orient Ceiling Fan Box for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Orient Ceiling Fan Box for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -817,7 +817,7 @@ const products = [
     "slug": "orient-ceiling-fan-box-close-up-35",
     "category": "Electrical & Fixtures",
     "price": 3800,
-    "description": "Premium Orient Ceiling Fan Box Close Up for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Orient Ceiling Fan Box Close Up for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -838,7 +838,7 @@ const products = [
     "slug": "orient-ceiling-fan-36",
     "category": "Electrical & Fixtures",
     "price": 3800,
-    "description": "Premium Orient Ceiling Fan for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Orient Ceiling Fan for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -859,7 +859,7 @@ const products = [
     "slug": "cement-bags-stacked-37",
     "category": "Cement & Binding",
     "price": 0,
-    "description": "Premium Cement Bags Stacked for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Cement Bags Stacked for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -879,7 +879,7 @@ const products = [
     "slug": "orient-ceiling-fan-box-38",
     "category": "Electrical & Fixtures",
     "price": 3800,
-    "description": "Premium Orient Ceiling Fan Box for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Orient Ceiling Fan Box for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -900,7 +900,7 @@ const products = [
     "slug": "cement-bags-stacked-39",
     "category": "Cement & Binding",
     "price": 0,
-    "description": "Premium Cement Bags Stacked for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Cement Bags Stacked for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -920,7 +920,7 @@ const products = [
     "slug": "cement-bags-stacked-40",
     "category": "Cement & Binding",
     "price": 0,
-    "description": "Premium Cement Bags Stacked for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Cement Bags Stacked for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -940,7 +940,7 @@ const products = [
     "slug": "cement-bags-stacked-41",
     "category": "Cement & Binding",
     "price": 0,
-    "description": "Premium Cement Bags Stacked for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Cement Bags Stacked for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -960,7 +960,7 @@ const products = [
     "slug": "bamburi-cement-50kg-42",
     "category": "Cement & Binding",
     "price": 950,
-    "description": "Premium Bamburi Cement 50kg for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Bamburi Cement 50kg for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -981,7 +981,7 @@ const products = [
     "slug": "bamburi-cement-bag-back-43",
     "category": "Cement & Binding",
     "price": 720,
-    "description": "Premium Bamburi Cement Bag Back for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Bamburi Cement Bag Back for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -1002,7 +1002,7 @@ const products = [
     "slug": "mombasa-cement-pozzolanic-50kg-44",
     "category": "Cement & Binding",
     "price": 820,
-    "description": "Premium Mombasa Cement Pozzolanic 50kg for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Mombasa Cement Pozzolanic 50kg for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -1022,7 +1022,7 @@ const products = [
     "slug": "twyford-glazed-floor-tiles-300x300mm-45",
     "category": "Paint & Finishes",
     "price": 0,
-    "description": "Premium Twyford Glazed Floor Tiles 300x300mm for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Twyford Glazed Floor Tiles 300x300mm for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -1042,7 +1042,7 @@ const products = [
     "slug": "twyford-glazed-floor-tiles-300x300mm-46",
     "category": "Paint & Finishes",
     "price": 0,
-    "description": "Premium Twyford Glazed Floor Tiles 300x300mm for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Twyford Glazed Floor Tiles 300x300mm for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -1062,7 +1062,7 @@ const products = [
     "slug": "twyford-glazed-floor-tiles-box-47",
     "category": "Paint & Finishes",
     "price": 0,
-    "description": "Premium Twyford Glazed Floor Tiles Box for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Twyford Glazed Floor Tiles Box for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -1082,7 +1082,7 @@ const products = [
     "slug": "d8-steel-rebar-0",
     "category": "Steel & Welding",
     "price": 680,
-    "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -1103,7 +1103,7 @@ const products = [
     "slug": "d10-steel-rebar-1",
     "category": "Steel & Welding",
     "price": 980,
-    "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -1124,7 +1124,7 @@ const products = [
     "slug": "d12-steel-rebar-2",
     "category": "Steel & Welding",
     "price": 1370,
-    "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -1145,7 +1145,7 @@ const products = [
     "slug": "d16-steel-rebar-3",
     "category": "Steel & Welding",
     "price": 2370,
-    "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -1166,7 +1166,7 @@ const products = [
     "slug": "d20-steel-rebar-4",
     "category": "Steel & Welding",
     "price": 3900,
-    "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -1187,7 +1187,7 @@ const products = [
     "slug": "d25-steel-rebar-5",
     "category": "Steel & Welding",
     "price": 6700,
-    "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -1208,7 +1208,7 @@ const products = [
     "slug": "plywood-sheets-stacked-51",
     "category": "Tools & Hardware",
     "price": 0,
-    "description": "Premium Plywood Sheets Stacked for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Plywood Sheets Stacked for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -1228,7 +1228,7 @@ const products = [
     "slug": "crown---duracoat-paint-buckets-52",
     "category": "Paint & Finishes",
     "price": 0,
-    "description": "Premium Crown & DuraCoat Paint Buckets for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Crown & DuraCoat Paint Buckets for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -1248,7 +1248,7 @@ const products = [
     "slug": "welding-materials-and-cutting-disc-54",
     "category": "Steel & Welding",
     "price": 0,
-    "description": "Premium Welding Materials and Cutting Disc for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Welding Materials and Cutting Disc for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -1268,7 +1268,7 @@ const products = [
     "slug": "crown---duracoat-paint-buckets-55",
     "category": "Paint & Finishes",
     "price": 0,
-    "description": "Premium Crown & DuraCoat Paint Buckets for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Crown & DuraCoat Paint Buckets for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -1288,7 +1288,7 @@ const products = [
     "slug": "stainless-steel-kitchen-sink-56",
     "category": "Plumbing",
     "price": 2500,
-    "description": "Premium Stainless Steel Kitchen Sink for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Stainless Steel Kitchen Sink for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -1308,7 +1308,7 @@ const products = [
     "slug": "galvanized-wire-coils-loading-59",
     "category": "Steel & Welding",
     "price": 0,
-    "description": "Premium Galvanized Wire Coils Loading for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Galvanized Wire Coils Loading for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -1328,7 +1328,7 @@ const products = [
     "slug": "steel-profiles-and-sheets-yard-60",
     "category": "Steel & Welding",
     "price": 0,
-    "description": "Premium Steel Profiles and Sheets Yard for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "description": "Premium Steel Profiles and Sheets Yard for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
