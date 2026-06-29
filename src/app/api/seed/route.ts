@@ -67,10 +67,10 @@ const products = [
     "featured": true
   },
   {
-    "name": "PPR Pipe Fittings Green",
+    "name": "PPR Sockets",
     "slug": "ppr-pipe-fittings-green-3",
     "category": "Plumbing",
-    "price": 0,
+    "price": 30,
     "description": "Premium PPR Pipe Fittings Green for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -84,7 +84,8 @@ const products = [
     "images": [
       "/images/products/plumbing/ppr-pipe-fittings-green-3.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "unit": "per pc"
   },
   {
     "name": "Alortra White Cement 40kg",
@@ -131,7 +132,7 @@ const products = [
     "name": "Mombasa Cement Nyumba Pozzolanic 50kg",
     "slug": "mombasa-cement-nyumba-pozzolanic-50kg-6",
     "category": "Cement & Binding",
-    "price": 0,
+    "price": 820,
     "description": "Premium Mombasa Cement Nyumba Pozzolanic 50kg for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -229,10 +230,10 @@ const products = [
     "inStock": true
   },
   {
-    "name": "Black Concrete Nails",
-    "slug": "black-concrete-nails-11",
+    "name": "Nails 1\"",
+    "slug": "nails-1-0",
     "category": "Tools & Hardware",
-    "price": 0,
+    "price": 350,
     "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -246,7 +247,155 @@ const products = [
     "images": [
       "/images/products/tools---hardware/black-concrete-nails-11.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "unit": "per kg"
+  },
+  {
+    "name": "Nails 1 1/2\"",
+    "slug": "nails-1-1-2-1",
+    "category": "Tools & Hardware",
+    "price": 350,
+    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "Black",
+      "Category": "Tools & Hardware"
+    },
+    "images": [
+      "/images/products/tools---hardware/black-concrete-nails-11.jpeg"
+    ],
+    "inStock": true,
+    "unit": "per kg"
+  },
+  {
+    "name": "Nails 2\"",
+    "slug": "nails-2-2",
+    "category": "Tools & Hardware",
+    "price": 200,
+    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "Black",
+      "Category": "Tools & Hardware"
+    },
+    "images": [
+      "/images/products/tools---hardware/black-concrete-nails-11.jpeg"
+    ],
+    "inStock": true,
+    "unit": "per kg"
+  },
+  {
+    "name": "Nails 3\"",
+    "slug": "nails-3-3",
+    "category": "Tools & Hardware",
+    "price": 200,
+    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "Black",
+      "Category": "Tools & Hardware"
+    },
+    "images": [
+      "/images/products/tools---hardware/black-concrete-nails-11.jpeg"
+    ],
+    "inStock": true,
+    "unit": "per kg"
+  },
+  {
+    "name": "Nails 4\"",
+    "slug": "nails-4-4",
+    "category": "Tools & Hardware",
+    "price": 200,
+    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "Black",
+      "Category": "Tools & Hardware"
+    },
+    "images": [
+      "/images/products/tools---hardware/black-concrete-nails-11.jpeg"
+    ],
+    "inStock": true,
+    "unit": "per kg"
+  },
+  {
+    "name": "Nails 5\"",
+    "slug": "nails-5-5",
+    "category": "Tools & Hardware",
+    "price": 200,
+    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "Black",
+      "Category": "Tools & Hardware"
+    },
+    "images": [
+      "/images/products/tools---hardware/black-concrete-nails-11.jpeg"
+    ],
+    "inStock": true,
+    "unit": "per kg"
+  },
+  {
+    "name": "Ceiling Nails 1\"",
+    "slug": "ceiling-nails-1-6",
+    "category": "Tools & Hardware",
+    "price": 350,
+    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "Black",
+      "Category": "Tools & Hardware"
+    },
+    "images": [
+      "/images/products/tools---hardware/black-concrete-nails-11.jpeg"
+    ],
+    "inStock": true,
+    "unit": "per kg"
+  },
+  {
+    "name": "Ceiling Nails 1 1/2\"",
+    "slug": "ceiling-nails-1-1-2-7",
+    "category": "Tools & Hardware",
+    "price": 350,
+    "description": "Premium Black Concrete Nails for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "Black",
+      "Category": "Tools & Hardware"
+    },
+    "images": [
+      "/images/products/tools---hardware/black-concrete-nails-11.jpeg"
+    ],
+    "inStock": true,
+    "unit": "per kg"
   },
   {
     "name": "DuraCoat Skim Coat Bags",
@@ -265,26 +414,6 @@ const products = [
     },
     "images": [
       "/images/products/cement---binding/duracoat-skim-coat-bags-12.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "Black Concrete Nails in Bags",
-    "slug": "black-concrete-nails-in-bags-13",
-    "category": "Tools & Hardware",
-    "price": 0,
-    "description": "Premium Black Concrete Nails in Bags for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Black",
-      "Category": "Tools & Hardware"
-    },
-    "images": [
-      "/images/products/tools---hardware/black-concrete-nails-in-bags-13.jpeg"
     ],
     "inStock": true
   },
@@ -332,7 +461,7 @@ const products = [
     "name": "Undertaker 480 EC Insecticide 1L",
     "slug": "undertaker-480-ec-insecticide-1l-16",
     "category": "Tools & Hardware",
-    "price": 0,
+    "price": 3500,
     "description": "Premium Undertaker 480 EC Insecticide 1L for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -349,30 +478,10 @@ const products = [
     "inStock": true
   },
   {
-    "name": "Black Concrete Nails Bag",
-    "slug": "black-concrete-nails-bag-17",
-    "category": "Tools & Hardware",
-    "price": 0,
-    "description": "Premium Black Concrete Nails Bag for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Black",
-      "Category": "Tools & Hardware"
-    },
-    "images": [
-      "/images/products/tools---hardware/black-concrete-nails-bag-17.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "Tan-Ur PVC Water Hose Green",
-    "slug": "tan-ur-pvc-water-hose-green-18",
+    "name": "Hose pipe 3/4\" roll",
+    "slug": "hose-pipe-3-4-roll-0",
     "category": "Plumbing",
-    "price": 0,
+    "price": 6500,
     "description": "Premium Tan-Ur PVC Water Hose Green for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -386,13 +495,77 @@ const products = [
     "images": [
       "/images/products/plumbing/tan-ur-pvc-water-hose-green-18.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "unit": "per roll"
+  },
+  {
+    "name": "Hose pipe 1/2\" roll",
+    "slug": "hose-pipe-1-2-roll-1",
+    "category": "Plumbing",
+    "price": 6000,
+    "description": "Premium Tan-Ur PVC Water Hose Green for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "Tan-Ur",
+      "Category": "Plumbing"
+    },
+    "images": [
+      "/images/products/plumbing/tan-ur-pvc-water-hose-green-18.jpeg"
+    ],
+    "inStock": true,
+    "unit": "per roll"
+  },
+  {
+    "name": "Hose pipe 1\" roll",
+    "slug": "hose-pipe-1-roll-2",
+    "category": "Plumbing",
+    "price": 7500,
+    "description": "Premium Tan-Ur PVC Water Hose Green for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "Tan-Ur",
+      "Category": "Plumbing"
+    },
+    "images": [
+      "/images/products/plumbing/tan-ur-pvc-water-hose-green-18.jpeg"
+    ],
+    "inStock": true,
+    "unit": "per roll"
+  },
+  {
+    "name": "Hose pipe 1 metre",
+    "slug": "hose-pipe-1-metre-3",
+    "category": "Plumbing",
+    "price": 200,
+    "description": "Premium Tan-Ur PVC Water Hose Green for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "Tan-Ur",
+      "Category": "Plumbing"
+    },
+    "images": [
+      "/images/products/plumbing/tan-ur-pvc-water-hose-green-18.jpeg"
+    ],
+    "inStock": true,
+    "unit": "per metre"
   },
   {
     "name": "Undertaker 480 EC Insecticide 1L",
     "slug": "undertaker-480-ec-insecticide-1l-19",
     "category": "Tools & Hardware",
-    "price": 0,
+    "price": 3500,
     "description": "Premium Undertaker 480 EC Insecticide 1L for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -405,126 +578,6 @@ const products = [
     },
     "images": [
       "/images/products/tools---hardware/undertaker-480-ec-insecticide-1l-19.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "Tan-Ur PVC Water Hose Green",
-    "slug": "tan-ur-pvc-water-hose-green-20",
-    "category": "Plumbing",
-    "price": 0,
-    "description": "Premium Tan-Ur PVC Water Hose Green for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Tan-Ur",
-      "Category": "Plumbing"
-    },
-    "images": [
-      "/images/products/plumbing/tan-ur-pvc-water-hose-green-20.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "Green PVC Water Hose Roll",
-    "slug": "green-pvc-water-hose-roll-21",
-    "category": "Plumbing",
-    "price": 0,
-    "description": "Premium Green PVC Water Hose Roll for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Green",
-      "Category": "Plumbing"
-    },
-    "images": [
-      "/images/products/plumbing/green-pvc-water-hose-roll-21.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "Green PVC Water Hose Roll",
-    "slug": "green-pvc-water-hose-roll-22",
-    "category": "Plumbing",
-    "price": 0,
-    "description": "Premium Green PVC Water Hose Roll for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Green",
-      "Category": "Plumbing"
-    },
-    "images": [
-      "/images/products/plumbing/green-pvc-water-hose-roll-22.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "Blue PVC Water Hose Roll",
-    "slug": "blue-pvc-water-hose-roll-23",
-    "category": "Plumbing",
-    "price": 0,
-    "description": "Premium Blue PVC Water Hose Roll for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Blue",
-      "Category": "Plumbing"
-    },
-    "images": [
-      "/images/products/plumbing/blue-pvc-water-hose-roll-23.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "Tan-Uk PVC Water Hose Blue",
-    "slug": "tan-uk-pvc-water-hose-blue-24",
-    "category": "Plumbing",
-    "price": 0,
-    "description": "Premium Tan-Uk PVC Water Hose Blue for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Tan-Uk",
-      "Category": "Plumbing"
-    },
-    "images": [
-      "/images/products/plumbing/tan-uk-pvc-water-hose-blue-24.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "Blue PVC Water Hose Roll",
-    "slug": "blue-pvc-water-hose-roll-25",
-    "category": "Plumbing",
-    "price": 0,
-    "description": "Premium Blue PVC Water Hose Roll for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Blue",
-      "Category": "Plumbing"
-    },
-    "images": [
-      "/images/products/plumbing/blue-pvc-water-hose-roll-25.jpeg"
     ],
     "inStock": true
   },
@@ -591,10 +644,10 @@ const products = [
     "featured": true
   },
   {
-    "name": "Black Binding Wire Roll",
-    "slug": "black-binding-wire-roll-29",
+    "name": "Binding Wire 1 roll",
+    "slug": "binding-wire-1-roll-0",
     "category": "Steel & Welding",
-    "price": 0,
+    "price": 4000,
     "description": "Premium Black Binding Wire Roll for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -608,7 +661,29 @@ const products = [
     "images": [
       "/images/products/steel---welding/black-binding-wire-roll-29.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "unit": "per roll"
+  },
+  {
+    "name": "Binding Wire 1kg",
+    "slug": "binding-wire-1kg-1",
+    "category": "Steel & Welding",
+    "price": 350,
+    "description": "Premium Black Binding Wire Roll for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "Black",
+      "Category": "Steel & Welding"
+    },
+    "images": [
+      "/images/products/steel---welding/black-binding-wire-roll-29.jpeg"
+    ],
+    "inStock": true,
+    "unit": "per kg"
   },
   {
     "name": "DuraCoat Skimcoat Filler",
@@ -653,10 +728,10 @@ const products = [
     "featured": true
   },
   {
-    "name": "Tangit PVC-U Glue Adhesive",
+    "name": "P.V.C Tangit Glue",
     "slug": "tangit-pvc-u-glue-adhesive-32",
     "category": "Plumbing",
-    "price": 0,
+    "price": 850,
     "description": "Premium Tangit PVC-U Glue Adhesive for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -670,7 +745,8 @@ const products = [
     "images": [
       "/images/products/plumbing/tangit-pvc-u-glue-adhesive-32.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "unit": "per pc"
   },
   {
     "name": "Orient Fan",
@@ -903,7 +979,7 @@ const products = [
     "name": "Mombasa Cement Pozzolanic 50kg",
     "slug": "mombasa-cement-pozzolanic-50kg-44",
     "category": "Cement & Binding",
-    "price": 0,
+    "price": 820,
     "description": "Premium Mombasa Cement Pozzolanic 50kg for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -980,10 +1056,10 @@ const products = [
     "inStock": true
   },
   {
-    "name": "Steel Reinforcement Bars Rebar",
-    "slug": "steel-reinforcement-bars-rebar-48",
+    "name": "D8 Steel Rebar",
+    "slug": "d8-steel-rebar-0",
     "category": "Steel & Welding",
-    "price": 0,
+    "price": 680,
     "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -997,13 +1073,14 @@ const products = [
     "images": [
       "/images/products/steel---welding/steel-reinforcement-bars-rebar-48.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "unit": "per piece"
   },
   {
-    "name": "Steel Reinforcement Bars Rebar",
-    "slug": "steel-reinforcement-bars-rebar-49",
+    "name": "D10 Steel Rebar",
+    "slug": "d10-steel-rebar-1",
     "category": "Steel & Welding",
-    "price": 0,
+    "price": 980,
     "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -1015,15 +1092,16 @@ const products = [
       "Category": "Steel & Welding"
     },
     "images": [
-      "/images/products/steel---welding/steel-reinforcement-bars-rebar-49.jpeg"
+      "/images/products/steel---welding/steel-reinforcement-bars-rebar-48.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "unit": "per piece"
   },
   {
-    "name": "Steel Reinforcement Bars Rebar",
-    "slug": "steel-reinforcement-bars-rebar-50",
+    "name": "D12 Steel Rebar",
+    "slug": "d12-steel-rebar-2",
     "category": "Steel & Welding",
-    "price": 0,
+    "price": 1370,
     "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -1035,9 +1113,73 @@ const products = [
       "Category": "Steel & Welding"
     },
     "images": [
-      "/images/products/steel---welding/steel-reinforcement-bars-rebar-50.jpeg"
+      "/images/products/steel---welding/steel-reinforcement-bars-rebar-48.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "unit": "per piece"
+  },
+  {
+    "name": "D16 Steel Rebar",
+    "slug": "d16-steel-rebar-3",
+    "category": "Steel & Welding",
+    "price": 2370,
+    "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "Steel",
+      "Category": "Steel & Welding"
+    },
+    "images": [
+      "/images/products/steel---welding/steel-reinforcement-bars-rebar-48.jpeg"
+    ],
+    "inStock": true,
+    "unit": "per piece"
+  },
+  {
+    "name": "D20 Steel Rebar",
+    "slug": "d20-steel-rebar-4",
+    "category": "Steel & Welding",
+    "price": 3900,
+    "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "Steel",
+      "Category": "Steel & Welding"
+    },
+    "images": [
+      "/images/products/steel---welding/steel-reinforcement-bars-rebar-48.jpeg"
+    ],
+    "inStock": true,
+    "unit": "per piece"
+  },
+  {
+    "name": "D25 Steel Rebar",
+    "slug": "d25-steel-rebar-5",
+    "category": "Steel & Welding",
+    "price": 6700,
+    "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "Steel",
+      "Category": "Steel & Welding"
+    },
+    "images": [
+      "/images/products/steel---welding/steel-reinforcement-bars-rebar-48.jpeg"
+    ],
+    "inStock": true,
+    "unit": "per piece"
   },
   {
     "name": "Plywood Sheets Stacked",
@@ -1076,26 +1218,6 @@ const products = [
     },
     "images": [
       "/images/products/paint---finishes/crown---duracoat-paint-buckets-52.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "Steel Reinforcement Bars Rebar",
-    "slug": "steel-reinforcement-bars-rebar-53",
-    "category": "Steel & Welding",
-    "price": 0,
-    "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Steel",
-      "Category": "Steel & Welding"
-    },
-    "images": [
-      "/images/products/steel---welding/steel-reinforcement-bars-rebar-53.jpeg"
     ],
     "inStock": true
   },
@@ -1156,26 +1278,6 @@ const products = [
     },
     "images": [
       "/images/products/plumbing/stainless-steel-kitchen-sink-56.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "Steel Reinforcement Bars Rebar",
-    "slug": "steel-reinforcement-bars-rebar-57",
-    "category": "Steel & Welding",
-    "price": 0,
-    "description": "Premium Steel Reinforcement Bars Rebar for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Steel",
-      "Category": "Steel & Welding"
-    },
-    "images": [
-      "/images/products/steel---welding/steel-reinforcement-bars-rebar-57.jpeg"
     ],
     "inStock": true
   },
