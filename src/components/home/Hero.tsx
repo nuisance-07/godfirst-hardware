@@ -24,7 +24,11 @@ export default function Hero() {
       <div className="container relative z-10 mx-auto px-4 text-center mt-16">
         <ScrollReveal delay={0.2} direction="up" className="flex flex-col items-center justify-center gap-6 mb-8">
           <div className="flex justify-center mb-8">
-            <Logo className="h-40 md:h-56 lg:h-72 w-auto drop-shadow-2xl" />
+            <img 
+              src="/logo-dark.png" 
+              alt="Dhawakah Logo" 
+              className="h-40 md:h-56 lg:h-72 w-auto object-contain drop-shadow-2xl"
+            />
           </div>
         </ScrollReveal>
         
