@@ -5,7 +5,6 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, MessageCircle, CheckCircle2 } from "lucide-react";
-import MpesaPayButton from "@/components/ui/MpesaPayButton";
 
 export const revalidate = 0;
 
@@ -26,7 +25,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   if (!product) notFound();
 
   const whatsappMessage = `Hello! I'm interested in: ${product.name} (Ksh ${product.price.toLocaleString()}/=). Is it available?`;
-  const whatsappUrl = `https://wa.me/254764831754?text=${encodeURIComponent(whatsappMessage)}`;
+  const whatsappUrl = `https://wa.me/254746978736?text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
     <PageTransition>
@@ -106,11 +105,6 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
                 {/* Action Buttons */}
                 <div className="flex flex-col gap-3 pt-4">
-                  <MpesaPayButton
-                    productName={product.name}
-                    productSlug={product.slug}
-                    amount={product.price}
-                  />
                   <div className="flex flex-col sm:flex-row gap-3">
                     <a
                       href={whatsappUrl}

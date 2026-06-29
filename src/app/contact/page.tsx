@@ -49,7 +49,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-slate-900 dark:text-white mb-1">Phone</h4>
-                      <p className="text-slate-600 dark:text-slate-400">0764 831 754</p>
+                      <p className="text-slate-600 dark:text-slate-400">0746 978 736</p>
                     </div>
                   </div>
 
@@ -59,7 +59,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-slate-900 dark:text-white mb-1">WhatsApp</h4>
-                      <a href="https://wa.me/254764831754" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                      <a href="https://wa.me/254746978736" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
                         Chat with us on WhatsApp
                       </a>
                     </div>
@@ -133,7 +133,7 @@ export default function ContactPage() {
                       Send us your order list on WhatsApp and we&apos;ll prepare everything for pickup or delivery.
                     </p>
                     <a
-                      href="https://wa.me/254764831754?text=Hello!%20I%20would%20like%20to%20place%20an%20order."
+                      href="https://wa.me/254746978736?text=Hello!%20I%20would%20like%20to%20place%20an%20order."
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-semibold rounded-lg hover:bg-slate-100 transition-colors shadow-lg"
