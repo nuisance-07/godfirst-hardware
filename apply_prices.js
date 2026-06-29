@@ -143,6 +143,27 @@ products.forEach(p => {
   else if (p.name.includes("Reinforcement Bars Rebar")) {
     // skip
   }
+  // Electrical Wire Variants
+  else if (p.slug === "electrical-wire-rolls-stacked-26") {
+    const cables = [
+      { name: 'Cable wire 1.5 roll', price: 5500, unit: "per roll" },
+      { name: 'Cable wire 2.5 roll', price: 6500, unit: "per roll" }
+    ];
+    cables.forEach((variant, i) => {
+      newProducts.push({
+        ...p,
+        name: variant.name,
+        slug: slugify(variant.name) + "-" + i,
+        price: variant.price,
+        unit: variant.unit
+      });
+    });
+  }
+  // Sink
+  else if (p.slug === "stainless-steel-kitchen-sink-56") {
+    p.price = 2500;
+    newProducts.push(p);
+  }
   else {
     newProducts.push(p);
   }

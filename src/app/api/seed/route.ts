@@ -582,10 +582,10 @@ const products = [
     "inStock": true
   },
   {
-    "name": "Electrical Wire Rolls Stacked",
-    "slug": "electrical-wire-rolls-stacked-26",
+    "name": "Cable wire 1.5 roll",
+    "slug": "cable-wire-1-5-roll-0",
     "category": "Electrical & Fixtures",
-    "price": 0,
+    "price": 5500,
     "description": "Premium Electrical Wire Rolls Stacked for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
@@ -599,7 +599,29 @@ const products = [
     "images": [
       "/images/products/electrical---fixtures/electrical-wire-rolls-stacked-26.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "unit": "per roll"
+  },
+  {
+    "name": "Cable wire 2.5 roll",
+    "slug": "cable-wire-2-5-roll-1",
+    "category": "Electrical & Fixtures",
+    "price": 6500,
+    "description": "Premium Electrical Wire Rolls Stacked for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "Electrical",
+      "Category": "Electrical & Fixtures"
+    },
+    "images": [
+      "/images/products/electrical---fixtures/electrical-wire-rolls-stacked-26.jpeg"
+    ],
+    "inStock": true,
+    "unit": "per roll"
   },
   {
     "name": "Welding Rods",
@@ -1265,7 +1287,7 @@ const products = [
     "name": "Stainless Steel Kitchen Sink",
     "slug": "stainless-steel-kitchen-sink-56",
     "category": "Plumbing",
-    "price": 0,
+    "price": 2500,
     "description": "Premium Stainless Steel Kitchen Sink for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
     "features": [
       "High quality",
