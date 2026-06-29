@@ -597,7 +597,7 @@ const products = [
       "Category": "Electrical & Fixtures"
     },
     "images": [
-      "/images/products/electrical---fixtures/electrical-wire-rolls-stacked-26.jpeg"
+      "/images/products/plumbing/coiled-water-pipes-58.jpeg"
     ],
     "inStock": true,
     "unit": "per roll"
@@ -618,7 +618,7 @@ const products = [
       "Category": "Electrical & Fixtures"
     },
     "images": [
-      "/images/products/electrical---fixtures/electrical-wire-rolls-stacked-26.jpeg"
+      "/images/products/plumbing/coiled-water-pipes-58.jpeg"
     ],
     "inStock": true,
     "unit": "per roll"
@@ -1300,26 +1300,6 @@ const products = [
     },
     "images": [
       "/images/products/plumbing/stainless-steel-kitchen-sink-56.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "Coiled Water Pipes",
-    "slug": "coiled-water-pipes-58",
-    "category": "Plumbing",
-    "price": 0,
-    "description": "Premium Coiled Water Pipes for your construction and hardware needs. Quality guaranteed by Godfirst Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Coiled",
-      "Category": "Plumbing"
-    },
-    "images": [
-      "/images/products/plumbing/coiled-water-pipes-58.jpeg"
     ],
     "inStock": true
   },
