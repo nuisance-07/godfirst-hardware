@@ -13,7 +13,7 @@ export default function ProductCard({ product }: { product: ProductData }) {
           className="object-cover group-hover:scale-105 transition-transform duration-700 ease-in-out"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
-        <div className="absolute top-3 left-3 bg-gradient-to-r from-primary to-sky-400 text-white text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-lg">
+        <div className="absolute top-3 left-3 bg-gradient-to-r from-primary to-red-400 text-white text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-lg">
           {product.category}
         </div>
         {!product.inStock && (
@@ -41,7 +41,7 @@ export default function ProductCard({ product }: { product: ProductData }) {
           </div>
           <Link
             href={`/products/${product.slug}`}
-            className="w-10 h-10 rounded-xl bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-300 group-hover:bg-gradient-to-r group-hover:from-primary group-hover:to-sky-400 group-hover:text-white transition-all"
+            className="w-10 h-10 rounded-xl bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-300 group-hover:bg-gradient-to-r group-hover:from-primary group-hover:to-red-400 group-hover:text-white transition-all"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </Link>

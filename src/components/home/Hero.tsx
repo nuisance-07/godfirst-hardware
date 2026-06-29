@@ -37,14 +37,14 @@ export default function Hero() {
         <ScrollReveal delay={0.6} direction="up" className="flex flex-col sm:flex-row items-center justify-center gap-6">
           <Link 
             href="/products"
-            className="group px-8 py-4 bg-gradient-to-r from-primary to-sky-400 text-white font-semibold rounded-lg hover:shadow-glow-lg transition-all flex items-center gap-2 w-full sm:w-auto justify-center"
+            className="group px-8 py-4 bg-gradient-to-r from-primary to-red-400 text-white font-semibold rounded-lg hover:shadow-glow-lg transition-all flex items-center gap-2 w-full sm:w-auto justify-center"
           >
             Browse Products
             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
           </Link>
           <Link 
             href="/contact"
-            className="px-8 py-4 bg-transparent border border-sky-400/40 text-white font-semibold rounded-lg hover:bg-sky-400/10 hover:border-sky-400 transition-all w-full sm:w-auto justify-center text-center backdrop-blur-sm"
+            className="px-8 py-4 bg-transparent border border-red-400/40 text-white font-semibold rounded-lg hover:bg-red-400/10 hover:border-red-400 transition-all w-full sm:w-auto justify-center text-center backdrop-blur-sm"
           >
             Get a Quote
           </Link>

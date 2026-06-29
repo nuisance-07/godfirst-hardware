@@ -123,7 +123,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
                     </a>
                     <Link
                       href="/contact"
-                      className="flex-1 flex items-center justify-center px-6 py-3.5 bg-gradient-to-r from-primary to-sky-400 text-white font-semibold rounded-lg hover:shadow-glow transition-all"
+                      className="flex-1 flex items-center justify-center px-6 py-3.5 bg-gradient-to-r from-primary to-red-400 text-white font-semibold rounded-lg hover:shadow-glow transition-all"
                     >
                       Request a Quote
                     </Link>

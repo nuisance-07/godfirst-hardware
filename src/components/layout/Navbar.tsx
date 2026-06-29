@@ -33,7 +33,7 @@ export default function Navbar() {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out",
         isScrolled
-          ? "bg-white/95 dark:bg-[#0B1120]/90 backdrop-blur-xl border-b border-slate-200 dark:border-sky-500/10 shadow-sm dark:shadow-glow py-3"
+          ? "bg-white/95 dark:bg-[#0B1120]/90 backdrop-blur-xl border-b border-slate-200 dark:border-red-500/10 shadow-sm dark:shadow-glow py-3"
           : "bg-transparent py-5"
       )}
     >
@@ -58,7 +58,7 @@ export default function Navbar() {
           ))}
           <Link
             href="/contact"
-            className="px-6 py-2.5 bg-gradient-to-r from-primary to-sky-400 text-white font-semibold rounded-lg hover:from-primary-hover hover:to-primary transition-all shadow-sm hover:shadow-glow"
+            className="px-6 py-2.5 bg-gradient-to-r from-primary to-red-400 text-white font-semibold rounded-lg hover:from-primary-hover hover:to-primary transition-all shadow-sm hover:shadow-glow"
           >
             Get a Quote
           </Link>
@@ -80,7 +80,7 @@ export default function Navbar() {
 
       {/* Mobile Navigation */}
       {isMobileMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-white/98 dark:bg-[#0B1120]/98 backdrop-blur-xl border-b border-slate-200 dark:border-sky-500/10 py-6 px-4 flex flex-col gap-4 shadow-xl">
+        <div className="md:hidden absolute top-full left-0 right-0 bg-white/98 dark:bg-[#0B1120]/98 backdrop-blur-xl border-b border-slate-200 dark:border-red-500/10 py-6 px-4 flex flex-col gap-4 shadow-xl">
           {navLinks.map((link) => (
             <Link
               key={link.name}
@@ -97,7 +97,7 @@ export default function Navbar() {
           <Link
             href="/contact"
             onClick={() => setIsMobileMenuOpen(false)}
-            className="mt-4 px-6 py-3 bg-gradient-to-r from-primary to-sky-400 text-white text-center font-semibold rounded-lg hover:from-primary-hover hover:to-primary transition-all"
+            className="mt-4 px-6 py-3 bg-gradient-to-r from-primary to-red-400 text-white text-center font-semibold rounded-lg hover:from-primary-hover hover:to-primary transition-all"
           >
             Get a Quote
           </Link>

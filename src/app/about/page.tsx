@@ -64,7 +64,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 md:px-8 relative z-10">
           <ScrollReveal className="text-center mb-16">
             <h2 className="font-heading text-4xl md:text-5xl font-bold text-white uppercase mb-4">Core Values</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-primary to-cyan-400 mx-auto rounded-full" />
+            <div className="w-24 h-1 bg-gradient-to-r from-primary to-rose-400 mx-auto rounded-full" />
           </ScrollReveal>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

@@ -63,7 +63,7 @@ export default async function ProductsPage({
               href="/products"
               className={`px-5 py-2.5 rounded-lg text-sm font-medium transition-all border ${
                 !params.category
-                  ? "bg-gradient-to-r from-primary to-sky-400 text-white border-primary shadow-glow"
+                  ? "bg-gradient-to-r from-primary to-red-400 text-white border-primary shadow-glow"
                   : "bg-white dark:bg-[#111827] text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-700/50 hover:border-primary hover:text-primary"
               }`}
             >
@@ -75,7 +75,7 @@ export default async function ProductsPage({
                 href={`/products?category=${encodeURIComponent(cat)}`}
                 className={`px-5 py-2.5 rounded-lg text-sm font-medium transition-all border ${
                   params.category === cat
-                    ? "bg-gradient-to-r from-primary to-sky-400 text-white border-primary shadow-glow"
+                    ? "bg-gradient-to-r from-primary to-red-400 text-white border-primary shadow-glow"
                     : "bg-white dark:bg-[#111827] text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-700/50 hover:border-primary hover:text-primary"
                 }`}
               >

@@ -4,7 +4,7 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 
 export default function CallToAction() {
   return (
-    <section className="py-24 relative overflow-hidden bg-gradient-to-br from-primary via-sky-500 to-cyan-400">
+    <section className="py-24 relative overflow-hidden bg-gradient-to-br from-primary via-red-500 to-rose-400">
       {/* Blueprint grid overlay */}
       <div className="absolute inset-0 bg-blueprint opacity-20" />
       {/* Diagonal stripes */}

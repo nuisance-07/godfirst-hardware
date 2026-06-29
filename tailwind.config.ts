@@ -13,17 +13,17 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: {
-          DEFAULT: "#0EA5E9",
-          hover: "#0284C7",
-          light: "#38BDF8",
+          DEFAULT: "#C41E2A",
+          hover: "#A31822",
+          light: "#E63946",
         },
         accent: {
-          DEFAULT: "#22D3EE",
-          muted: "#164E63",
+          DEFAULT: "#D4A853",
+          muted: "#4A3728",
         },
         secondary: {
-          DEFAULT: "#64748B",
-          hover: "#94A3B8",
+          DEFAULT: "#475569",
+          hover: "#64748B",
         },
         dark: {
           DEFAULT: "#0B1120",
@@ -38,8 +38,8 @@ const config: Config = {
         heading: ["var(--font-outfit)", "sans-serif"],
       },
       boxShadow: {
-        glow: "0 0 20px rgba(14, 165, 233, 0.15)",
-        "glow-lg": "0 0 40px rgba(14, 165, 233, 0.2)",
+        glow: "0 0 20px rgba(196, 30, 42, 0.15)",
+        "glow-lg": "0 0 40px rgba(196, 30, 42, 0.2)",
       },
     },
   },

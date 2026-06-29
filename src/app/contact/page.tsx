@@ -125,7 +125,7 @@ export default function ContactPage() {
                 </div>
 
                 {/* Quick Order CTA */}
-                <div className="bg-gradient-to-br from-primary via-sky-500 to-cyan-400 rounded-xl p-8 text-center relative overflow-hidden">
+                <div className="bg-gradient-to-br from-primary via-red-500 to-rose-400 rounded-xl p-8 text-center relative overflow-hidden">
                   <div className="absolute inset-0 bg-blueprint opacity-10" />
                   <div className="relative z-10">
                     <h3 className="font-heading text-2xl font-bold text-white mb-4">Quick Order via WhatsApp</h3>

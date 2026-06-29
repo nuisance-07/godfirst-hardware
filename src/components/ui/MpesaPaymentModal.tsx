@@ -138,7 +138,7 @@ export default function MpesaPaymentModal({
       {/* Modal */}
       <div className="relative bg-white dark:bg-[#111827] rounded-2xl shadow-2xl w-full max-w-md overflow-hidden border border-slate-200 dark:border-slate-700/50">
         {/* Header */}
-        <div className="bg-gradient-to-r from-primary to-sky-400 px-6 py-5 flex items-center justify-between">
+        <div className="bg-gradient-to-r from-primary to-red-400 px-6 py-5 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm">
               <Phone size={20} className="text-white" />
@@ -276,7 +276,7 @@ export default function MpesaPaymentModal({
               )}
               <button
                 onClick={onClose}
-                className="mt-6 w-full py-3 bg-gradient-to-r from-primary to-sky-400 text-white font-semibold rounded-xl hover:shadow-glow transition-all"
+                className="mt-6 w-full py-3 bg-gradient-to-r from-primary to-red-400 text-white font-semibold rounded-xl hover:shadow-glow transition-all"
               >
                 Done
               </button>
@@ -301,7 +301,7 @@ export default function MpesaPaymentModal({
                     setState("idle");
                     setError("");
                   }}
-                  className="flex-1 py-3 bg-gradient-to-r from-primary to-sky-400 text-white font-semibold rounded-xl hover:shadow-glow transition-all"
+                  className="flex-1 py-3 bg-gradient-to-r from-primary to-red-400 text-white font-semibold rounded-xl hover:shadow-glow transition-all"
                 >
                   Try Again
                 </button>
