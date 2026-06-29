@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: "Your one-stop shop for quality building materials, cement, steel, welding rods, and construction supplies in Mombasa, Kenya.",
     images: [
       {
-        url: "/images/hero-bg.png",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Dhawakah Hardware Store",
@@ -43,6 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Dhawakah Hardware | Quality Building & Construction Materials",
     description: "Your one-stop shop for quality building materials, cement, steel, welding rods, and construction supplies in Mombasa, Kenya.",
+    images: ["/og-image.jpg"],
   },
 };
 
