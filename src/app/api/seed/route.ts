@@ -624,11 +624,11 @@ const products = [
     "unit": "per roll"
   },
   {
-    "name": "Welding Rods",
-    "slug": "welding-electrodes-rods-27",
+    "name": "Welding Rods 1 pkt",
+    "slug": "welding-rods-1-pkt",
     "category": "Steel & Welding",
     "price": 650,
-    "description": "Premium Welding Electrodes/Rods for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
+    "description": "Premium Welding Rods (1 packet) for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -642,7 +642,30 @@ const products = [
       "/images/products/steel---welding/welding-electrodes-rods-27.jpeg"
     ],
     "inStock": true,
-    "featured": true
+    "featured": true,
+    "unit": "per pkt"
+  },
+  {
+    "name": "Welding Rods 1kg",
+    "slug": "welding-rods-1kg",
+    "category": "Steel & Welding",
+    "price": 300,
+    "description": "Premium Welding Rods (1kg) for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "Welding",
+      "Category": "Steel & Welding"
+    },
+    "images": [
+      "/images/products/steel---welding/welding-electrodes-rods-27.jpeg"
+    ],
+    "inStock": true,
+    "featured": true,
+    "unit": "per kg"
   },
   {
     "name": "DuraCoat Skimcoat Filler",
@@ -1244,11 +1267,11 @@ const products = [
     "inStock": true
   },
   {
-    "name": "Welding Materials and Cutting Disc",
-    "slug": "welding-materials-and-cutting-disc-54",
+    "name": "Cutting Disk 9\"",
+    "slug": "cutting-disk-9-inch",
     "category": "Steel & Welding",
-    "price": 0,
-    "description": "Premium Welding Materials and Cutting Disc for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
+    "price": 300,
+    "description": "Premium 9 inch Cutting Disk for angle grinders. Quality guaranteed by Dhawakah Hardware.",
     "features": [
       "High quality",
       "Durable",
@@ -1259,9 +1282,31 @@ const products = [
       "Category": "Steel & Welding"
     },
     "images": [
-      "/images/products/steel---welding/welding-materials-and-cutting-disc-54.jpeg"
+      "/images/products/steel---welding/cutting-disk.jpeg"
     ],
-    "inStock": true
+    "inStock": true,
+    "unit": "per pc"
+  },
+  {
+    "name": "Cutting Disk 7\"",
+    "slug": "cutting-disk-7-inch",
+    "category": "Steel & Welding",
+    "price": 200,
+    "description": "Premium 7 inch Cutting Disk for angle grinders. Quality guaranteed by Dhawakah Hardware.",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "Welding",
+      "Category": "Steel & Welding"
+    },
+    "images": [
+      "/images/products/steel---welding/cutting-disk.jpeg"
+    ],
+    "inStock": true,
+    "unit": "per pc"
   },
   {
     "name": "Crown & DuraCoat Paint Buckets",
@@ -1342,6 +1387,69 @@ const products = [
       "/images/products/steel---welding/steel-profiles-and-sheets-yard-60.jpeg"
     ],
     "inStock": true
+  },
+  {
+    "category": "Plumbing",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "PVC",
+      "Category": "Plumbing"
+    },
+    "images": [
+      "/images/products/plumbing/waste-pipes.jpeg"
+    ],
+    "inStock": true,
+    "name": "Waste Pipe 4\"",
+    "slug": "waste-pipe-4-inch",
+    "price": 2000,
+    "unit": "per pc",
+    "description": "Premium 4 inch PVC Waste Pipe for plumbing. Quality guaranteed by Dhawakah Hardware."
+  },
+  {
+    "category": "Plumbing",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "PVC",
+      "Category": "Plumbing"
+    },
+    "images": [
+      "/images/products/plumbing/waste-pipes.jpeg"
+    ],
+    "inStock": true,
+    "name": "Waste Pipe 3\"",
+    "slug": "waste-pipe-3-inch",
+    "price": 650,
+    "unit": "per pc",
+    "description": "Premium 3 inch PVC Waste Pipe for plumbing. Quality guaranteed by Dhawakah Hardware."
+  },
+  {
+    "category": "Plumbing",
+    "features": [
+      "High quality",
+      "Durable",
+      "Reliable"
+    ],
+    "specifications": {
+      "Brand": "PVC",
+      "Category": "Plumbing"
+    },
+    "images": [
+      "/images/products/plumbing/waste-pipes.jpeg"
+    ],
+    "inStock": true,
+    "name": "Waste Pipe 2\"",
+    "slug": "waste-pipe-2-inch",
+    "price": 680,
+    "unit": "per pc",
+    "description": "Premium 2 inch PVC Waste Pipe for plumbing. Quality guaranteed by Dhawakah Hardware."
   }
 ];
 
