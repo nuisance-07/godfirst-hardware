@@ -26,26 +26,6 @@ const products = [
     "featured": true
   },
   {
-    "name": "Sina Gips Gypsum Plaster of Paris 25kg",
-    "slug": "sina-gips-gypsum-plaster-of-paris-25kg-1",
-    "category": "Cement & Binding",
-    "price": 0,
-    "description": "Premium Sina Gips Gypsum Plaster of Paris 25kg for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Sina",
-      "Category": "Cement & Binding"
-    },
-    "images": [
-      "/images/products/cement---binding/sina-gips-gypsum-plaster-of-paris-25kg-1.jpeg"
-    ],
-    "inStock": true
-  },
-  {
     "name": "White Cement 40kg",
     "slug": "aalborg-portland-white-cement-bags-2",
     "category": "Cement & Binding",
@@ -86,26 +66,6 @@ const products = [
     ],
     "inStock": true,
     "unit": "per pc"
-  },
-  {
-    "name": "Alortra White Cement 40kg",
-    "slug": "alortra-white-cement-40kg-4",
-    "category": "Cement & Binding",
-    "price": 0,
-    "description": "Premium Alortra White Cement 40kg for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Alortra",
-      "Category": "Cement & Binding"
-    },
-    "images": [
-      "/images/products/cement---binding/alortra-white-cement-40kg-4.jpeg"
-    ],
-    "inStock": true
   },
   {
     "name": "Mombasa Cement 50kg",
@@ -149,46 +109,6 @@ const products = [
     "inStock": true
   },
   {
-    "name": "Aalborg White Portland Cement 40kg",
-    "slug": "aalborg-white-portland-cement-40kg-7",
-    "category": "Cement & Binding",
-    "price": 0,
-    "description": "Premium Aalborg White Portland Cement 40kg for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Aalborg",
-      "Category": "Cement & Binding"
-    },
-    "images": [
-      "/images/products/cement---binding/aalborg-white-portland-cement-40kg-7.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "DuraCoat Internal & External Skim Coat",
-    "slug": "duracoat-internal---external-skim-coat-8",
-    "category": "Cement & Binding",
-    "price": 0,
-    "description": "Premium DuraCoat Internal & External Skim Coat for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "DuraCoat",
-      "Category": "Cement & Binding"
-    },
-    "images": [
-      "/images/products/cement---binding/duracoat-internal---external-skim-coat-8.jpeg"
-    ],
-    "inStock": true
-  },
-  {
     "name": "Gypsum Powder POP",
     "slug": "gypsum-plaster-bags-stacked-9",
     "category": "Cement & Binding",
@@ -208,26 +128,6 @@ const products = [
     ],
     "inStock": true,
     "featured": true
-  },
-  {
-    "name": "DuraCoat Skim Coat Bags",
-    "slug": "duracoat-skim-coat-bags-10",
-    "category": "Cement & Binding",
-    "price": 0,
-    "description": "Premium DuraCoat Skim Coat Bags for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "DuraCoat",
-      "Category": "Cement & Binding"
-    },
-    "images": [
-      "/images/products/cement---binding/duracoat-skim-coat-bags-10.jpeg"
-    ],
-    "inStock": true
   },
   {
     "name": "Nails 1\"",
@@ -396,66 +296,6 @@ const products = [
     ],
     "inStock": true,
     "unit": "per kg"
-  },
-  {
-    "name": "DuraCoat Skim Coat Bags",
-    "slug": "duracoat-skim-coat-bags-12",
-    "category": "Cement & Binding",
-    "price": 0,
-    "description": "Premium DuraCoat Skim Coat Bags for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "DuraCoat",
-      "Category": "Cement & Binding"
-    },
-    "images": [
-      "/images/products/cement---binding/duracoat-skim-coat-bags-12.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "UltraTech Gyp+ Gypsum Plaster",
-    "slug": "ultratech-gyp--gypsum-plaster-14",
-    "category": "Cement & Binding",
-    "price": 0,
-    "description": "Premium UltraTech Gyp+ Gypsum Plaster for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "UltraTech",
-      "Category": "Cement & Binding"
-    },
-    "images": [
-      "/images/products/cement---binding/ultratech-gyp--gypsum-plaster-14.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "UltraTech Gyp+ Gypsum Plaster Back",
-    "slug": "ultratech-gyp--gypsum-plaster-back-15",
-    "category": "Cement & Binding",
-    "price": 0,
-    "description": "Premium UltraTech Gyp+ Gypsum Plaster Back for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "UltraTech",
-      "Category": "Cement & Binding"
-    },
-    "images": [
-      "/images/products/cement---binding/ultratech-gyp--gypsum-plaster-back-15.jpeg"
-    ],
-    "inStock": true
   },
   {
     "name": "Undertaker 480 EC Insecticide 1L",
@@ -878,26 +718,6 @@ const products = [
     "featured": true
   },
   {
-    "name": "Cement Bags Stacked",
-    "slug": "cement-bags-stacked-37",
-    "category": "Cement & Binding",
-    "price": 0,
-    "description": "Premium Cement Bags Stacked for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Cement",
-      "Category": "Cement & Binding"
-    },
-    "images": [
-      "/images/products/cement---binding/cement-bags-stacked-37.jpeg"
-    ],
-    "inStock": true
-  },
-  {
     "name": "Orient Fan",
     "slug": "orient-ceiling-fan-box-38",
     "category": "Electrical & Fixtures",
@@ -917,66 +737,6 @@ const products = [
     ],
     "inStock": true,
     "featured": true
-  },
-  {
-    "name": "Cement Bags Stacked",
-    "slug": "cement-bags-stacked-39",
-    "category": "Cement & Binding",
-    "price": 0,
-    "description": "Premium Cement Bags Stacked for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Cement",
-      "Category": "Cement & Binding"
-    },
-    "images": [
-      "/images/products/cement---binding/cement-bags-stacked-39.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "Cement Bags Stacked",
-    "slug": "cement-bags-stacked-40",
-    "category": "Cement & Binding",
-    "price": 0,
-    "description": "Premium Cement Bags Stacked for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Cement",
-      "Category": "Cement & Binding"
-    },
-    "images": [
-      "/images/products/cement---binding/cement-bags-stacked-40.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "Cement Bags Stacked",
-    "slug": "cement-bags-stacked-41",
-    "category": "Cement & Binding",
-    "price": 0,
-    "description": "Premium Cement Bags Stacked for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Cement",
-      "Category": "Cement & Binding"
-    },
-    "images": [
-      "/images/products/cement---binding/cement-bags-stacked-41.jpeg"
-    ],
-    "inStock": true
   },
   {
     "name": "Bamburi Nguvu Cement 50kg",
@@ -1037,66 +797,6 @@ const products = [
     },
     "images": [
       "/images/products/cement---binding/mombasa-cement-pozzolanic-50kg-44.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "Twyford Glazed Floor Tiles 300x300mm",
-    "slug": "twyford-glazed-floor-tiles-300x300mm-45",
-    "category": "Paint & Finishes",
-    "price": 0,
-    "description": "Premium Twyford Glazed Floor Tiles 300x300mm for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Twyford",
-      "Category": "Paint & Finishes"
-    },
-    "images": [
-      "/images/products/paint---finishes/twyford-glazed-floor-tiles-300x300mm-45.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "Twyford Glazed Floor Tiles 300x300mm",
-    "slug": "twyford-glazed-floor-tiles-300x300mm-46",
-    "category": "Paint & Finishes",
-    "price": 0,
-    "description": "Premium Twyford Glazed Floor Tiles 300x300mm for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Twyford",
-      "Category": "Paint & Finishes"
-    },
-    "images": [
-      "/images/products/paint---finishes/twyford-glazed-floor-tiles-300x300mm-46.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "Twyford Glazed Floor Tiles Box",
-    "slug": "twyford-glazed-floor-tiles-box-47",
-    "category": "Paint & Finishes",
-    "price": 0,
-    "description": "Premium Twyford Glazed Floor Tiles Box for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Twyford",
-      "Category": "Paint & Finishes"
-    },
-    "images": [
-      "/images/products/paint---finishes/twyford-glazed-floor-tiles-box-47.jpeg"
     ],
     "inStock": true
   },
@@ -1227,46 +927,6 @@ const products = [
     "unit": "per piece"
   },
   {
-    "name": "Plywood Sheets Stacked",
-    "slug": "plywood-sheets-stacked-51",
-    "category": "Tools & Hardware",
-    "price": 0,
-    "description": "Premium Plywood Sheets Stacked for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Plywood",
-      "Category": "Tools & Hardware"
-    },
-    "images": [
-      "/images/products/tools---hardware/plywood-sheets-stacked-51.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "Crown & DuraCoat Paint Buckets",
-    "slug": "crown---duracoat-paint-buckets-52",
-    "category": "Paint & Finishes",
-    "price": 0,
-    "description": "Premium Crown & DuraCoat Paint Buckets for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Crown",
-      "Category": "Paint & Finishes"
-    },
-    "images": [
-      "/images/products/paint---finishes/crown---duracoat-paint-buckets-52.jpeg"
-    ],
-    "inStock": true
-  },
-  {
     "name": "Cutting Disk 9\"",
     "slug": "cutting-disk-9-inch",
     "category": "Steel & Welding",
@@ -1309,26 +969,6 @@ const products = [
     "unit": "per pc"
   },
   {
-    "name": "Crown & DuraCoat Paint Buckets",
-    "slug": "crown---duracoat-paint-buckets-55",
-    "category": "Paint & Finishes",
-    "price": 0,
-    "description": "Premium Crown & DuraCoat Paint Buckets for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Crown",
-      "Category": "Paint & Finishes"
-    },
-    "images": [
-      "/images/products/paint---finishes/crown---duracoat-paint-buckets-55.jpeg"
-    ],
-    "inStock": true
-  },
-  {
     "name": "Stainless Steel Kitchen Sink",
     "slug": "stainless-steel-kitchen-sink-56",
     "category": "Plumbing",
@@ -1345,46 +985,6 @@ const products = [
     },
     "images": [
       "/images/products/plumbing/stainless-steel-kitchen-sink-56.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "Galvanized Wire Coils Loading",
-    "slug": "galvanized-wire-coils-loading-59",
-    "category": "Steel & Welding",
-    "price": 0,
-    "description": "Premium Galvanized Wire Coils Loading for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Galvanized",
-      "Category": "Steel & Welding"
-    },
-    "images": [
-      "/images/products/steel---welding/galvanized-wire-coils-loading-59.jpeg"
-    ],
-    "inStock": true
-  },
-  {
-    "name": "Steel Profiles and Sheets Yard",
-    "slug": "steel-profiles-and-sheets-yard-60",
-    "category": "Steel & Welding",
-    "price": 0,
-    "description": "Premium Steel Profiles and Sheets Yard for your construction and hardware needs. Quality guaranteed by Dhawakah Hardware.",
-    "features": [
-      "High quality",
-      "Durable",
-      "Reliable"
-    ],
-    "specifications": {
-      "Brand": "Steel",
-      "Category": "Steel & Welding"
-    },
-    "images": [
-      "/images/products/steel---welding/steel-profiles-and-sheets-yard-60.jpeg"
     ],
     "inStock": true
   },
